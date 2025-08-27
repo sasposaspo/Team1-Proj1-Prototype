@@ -22,7 +22,7 @@ AssetImportWorker2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-53780
+58513
 -job-worker-count
 3
 -background-job-worker-count
@@ -66,12 +66,12 @@ Successfully changed project path to: /Users/sashapopovici/Desktop/Project 1-Des
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8746320384]  Target information:
+Player connection [8789148160]  Target information:
 
-Player connection [8746320384]  * "[IP] 172.30.128.227 [Port] 0 [Flags] 2 [Guid] 1522204124 [EditorId] 1522204124 [Version] 1048832 [Id] OSXEditor(0,Sashas-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8789148160]  * "[IP] 192.168.1.116 [Port] 0 [Flags] 2 [Guid] 1605377076 [EditorId] 1605377076 [Version] 1048832 [Id] OSXEditor(0,Mac.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8746320384] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8746320384] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8789148160] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8789148160] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -83,7 +83,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.43f1 (97272b72f107)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
@@ -98,43 +98,43 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56858
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56378
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001473 seconds.
-- Loaded All Assemblies, in  0.509 seconds
+Registered in 0.001521 seconds.
+- Loaded All Assemblies, in  0.526 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.294 seconds
-Domain Reload Profiling: 1804ms
-	BeginReloadAssembly (228ms)
+- Finished resetting the current domain, in  1.342 seconds
+Domain Reload Profiling: 1870ms
+	BeginReloadAssembly (223ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (34ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (103ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (226ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (220ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (118ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (1295ms)
+	FinalizeReload (1343ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1224ms)
+		SetupLoadedEditorAssemblies (1276ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (157ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (241ms)
-			ProcessInitializeOnLoadAttributes (524ms)
-			ProcessInitializeOnLoadMethodAttributes (291ms)
+			InitializePlatformSupportModulesInManaged (164ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (255ms)
+			ProcessInitializeOnLoadAttributes (551ms)
+			ProcessInitializeOnLoadMethodAttributes (293ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,594 +143,392 @@ Domain Reload Profiling: 1804ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.030 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.029 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.596 seconds
-Domain Reload Profiling: 3623ms
-	BeginReloadAssembly (247ms)
+- Finished resetting the current domain, in  2.691 seconds
+Domain Reload Profiling: 3716ms
+	BeginReloadAssembly (259ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (32ms)
+		DisableScriptedObjects (34ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (34ms)
 	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (86ms)
-	LoadAllAssembliesAndSetupDomain (650ms)
-		LoadAssemblies (519ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (629ms)
+		LoadAssemblies (495ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (240ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (139ms)
-			BuildScriptInfoCaches (58ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (2597ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (142ms)
+			BuildScriptInfoCaches (59ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (2692ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2259ms)
+		SetupLoadedEditorAssemblies (2352ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (269ms)
-			ProcessInitializeOnLoadAttributes (1764ms)
-			ProcessInitializeOnLoadMethodAttributes (209ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (274ms)
+			ProcessInitializeOnLoadAttributes (1857ms)
+			ProcessInitializeOnLoadMethodAttributes (205ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6042 unused Assets / (2.9 MB). Loaded Objects now: 6741.
-Memory consumption went from 155.7 MB to 152.8 MB.
-Total: 7.312458 ms (FindLiveObjects: 0.671292 ms CreateObjectMapping: 0.218958 ms MarkObjects: 4.678958 ms  DeleteObjects: 1.742083 ms)
+Unloading 6082 unused Assets / (3.2 MB). Loaded Objects now: 6781.
+Memory consumption went from 155.9 MB to 152.7 MB.
+Total: 6.177042 ms (FindLiveObjects: 0.448500 ms CreateObjectMapping: 0.243416 ms MarkObjects: 4.178417 ms  DeleteObjects: 1.306125 ms)
 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6031 unused Assets / (2.8 MB). Loaded Objects now: 6741.
-Memory consumption went from 122.1 MB to 119.3 MB.
-Total: 6.436666 ms (FindLiveObjects: 0.521625 ms CreateObjectMapping: 0.344459 ms MarkObjects: 4.157167 ms  DeleteObjects: 1.412875 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 108734.224414 seconds.
-  path: Assets/Scripts/MainMenuController.cs
-  artifactKey: Guid(6db8ce7f977c44dcb8fe1deee6498535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenuController.cs using Guid(6db8ce7f977c44dcb8fe1deee6498535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b9f2ec45bd65fb42d0c36a287217bfe') in 0.006305958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 135944.124430 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Hill_1.png
+  artifactKey: Guid(8f0cd9d84db7f164fa941cccfd720636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Hill_1.png using Guid(8f0cd9d84db7f164fa941cccfd720636) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '226d90655eea4f3a893574779b858d0e') in 0.241096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.315 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.593 seconds
-Domain Reload Profiling: 4913ms
-	BeginReloadAssembly (512ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (52ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (155ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (681ms)
-		LoadAssemblies (633ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (227ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (177ms)
-			ResolveRequiredComponents (36ms)
-	FinalizeReload (3595ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3143ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (514ms)
-			ProcessInitializeOnLoadAttributes (2421ms)
-			ProcessInitializeOnLoadMethodAttributes (182ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (2.5 MB). Loaded Objects now: 6758.
-Memory consumption went from 144.6 MB to 142.1 MB.
-Total: 9.985084 ms (FindLiveObjects: 0.905834 ms CreateObjectMapping: 0.314125 ms MarkObjects: 5.805875 ms  DeleteObjects: 2.958833 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.165 seconds
-Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.425 seconds
-Domain Reload Profiling: 4594ms
-	BeginReloadAssembly (370ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (46ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (96ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (687ms)
-		LoadAssemblies (613ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (223ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (175ms)
-			ResolveRequiredComponents (33ms)
-	FinalizeReload (3426ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2974ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (370ms)
-			ProcessInitializeOnLoadAttributes (2338ms)
-			ProcessInitializeOnLoadMethodAttributes (242ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (31ms)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (3.5 MB). Loaded Objects now: 6760.
-Memory consumption went from 142.7 MB to 139.2 MB.
-Total: 10.799584 ms (FindLiveObjects: 2.067167 ms CreateObjectMapping: 0.805792 ms MarkObjects: 5.609125 ms  DeleteObjects: 2.314666 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 57.120864 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(63823df083f7a4d9fb5d6fffdf7537dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(63823df083f7a4d9fb5d6fffdf7537dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '841263f8472b13ca87377cf7d392928a') in 0.002394125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000151 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Valey_4.png
+  artifactKey: Guid(4d1619ec77b8329428349a178be71e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Valey_4.png using Guid(4d1619ec77b8329428349a178be71e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e7521cee1e11443bf38468407b6bbba') in 0.010025666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Mountain_1.png
+  artifactKey: Guid(ef5260eb6be799848a09ffa008a3e0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Mountain_1.png using Guid(ef5260eb6be799848a09ffa008a3e0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82c7c1f8db6368943a6f15a287e02f13') in 0.007579792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Hill_5.png
+  artifactKey: Guid(8aed4e2e40dc71d4c8e9477e2a88d5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Hill_5.png using Guid(8aed4e2e40dc71d4c8e9477e2a88d5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5471e6257cf6ce9f1eedbf43d6b902b3') in 0.007865334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Hill_8.png
+  artifactKey: Guid(b207e46263ae9aa4a8372f762ed5eab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Hill_8.png using Guid(b207e46263ae9aa4a8372f762ed5eab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceed9a90b9ae28e630c9b75b1177f7bd') in 0.012401583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Mountain_6.png
+  artifactKey: Guid(eedc9cb933d29b8438eafa106baddc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Mountain_6.png using Guid(eedc9cb933d29b8438eafa106baddc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b4db7b1601f7aabd6b3076187b72946') in 0.011193125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Hill_9.png
+  artifactKey: Guid(8e57711405055f44386825ebb41b82b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Hill_9.png using Guid(8e57711405055f44386825ebb41b82b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96d35d35100e39afab6acdaa1f4f6dee') in 0.007641333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Valey_1.png
+  artifactKey: Guid(3be965ba857ba874fa8b2ffdab22296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Stamps Unity Terrain 2018.3/NM_Valey_1.png using Guid(3be965ba857ba874fa8b2ffdab22296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24ea1faf467ad6d446958e968f657a88') in 0.014982042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.736525 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Winter Mountains  Overview/ReflectionProbe-0.exr
+  artifactKey: Guid(288501b65db9ef949ba2cefe6a8fae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Winter Mountains  Overview/ReflectionProbe-0.exr using Guid(288501b65db9ef949ba2cefe6a8fae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7837f35f98560be3a052722e77e821a') in 1.478981584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.183797 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Winter Mountains Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(cc3ce223d74fdc84586ae9ea47fc5a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Winter Mountains Demo/ReflectionProbe-0.exr using Guid(cc3ce223d74fdc84586ae9ea47fc5a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1d81dde2e8c387c9e4b408ffe703899') in 0.0359705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.518213 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Hill_1.jpg
+  artifactKey: Guid(acc7cad2d6fda6d4aa21fc197886b008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Hill_1.jpg using Guid(acc7cad2d6fda6d4aa21fc197886b008) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc2cf338204b6f1ce4e3dba7eb1f7037') in 0.017441333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Hill_7.jpg
+  artifactKey: Guid(de6be41a6be5f1549a62164db28cd43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Hill_7.jpg using Guid(de6be41a6be5f1549a62164db28cd43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11add92588329b6f63ea5e3aff37fea8') in 0.012503208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Mountain_1.jpg
+  artifactKey: Guid(9144b96c641ae68479a10a1d1c3ca43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Mountain_1.jpg using Guid(9144b96c641ae68479a10a1d1c3ca43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34444ffc4a6060032d3ae586b7c0f32f') in 0.013994166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Valey_1.jpg
+  artifactKey: Guid(e58178e82b168014ba18ee7ae9e1c386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Valey_1.jpg using Guid(e58178e82b168014ba18ee7ae9e1c386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f707d97e8397f074151d53c367306e2') in 0.012195666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Mountain_2.jpg
+  artifactKey: Guid(efa2eefa6c172294386ed9e0f0c4c6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Mountain_2.jpg using Guid(efa2eefa6c172294386ed9e0f0c4c6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '325ad4523570d84446c81a6ef3d5cbc0') in 0.011270584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Mountain_3.jpg
+  artifactKey: Guid(c139820990a0d284687e98ba0a61ed64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Mountain_3.jpg using Guid(c139820990a0d284687e98ba0a61ed64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8763c140e1eeca4ef4931cecf12f8380') in 0.011433875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Valey_4.jpg
+  artifactKey: Guid(5381fe739e075b54f829ca6b08bfb77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Valey_4.jpg using Guid(5381fe739e075b54f829ca6b08bfb77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b05e96d253698b5f2b838b497b8785ab') in 0.016232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Hill_9.jpg
+  artifactKey: Guid(208f94ed97b9c5140ad04b75eaa63fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Hill_9.jpg using Guid(208f94ed97b9c5140ad04b75eaa63fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcc89d2fd8ff14a24a04d281024c47cc') in 0.021367917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Mountain_5.jpg
+  artifactKey: Guid(7ac74ed69b48c264a87554c5932c994c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Gaia Stamps/NM_Gaia_Mountain_5.jpg using Guid(7ac74ed69b48c264a87554c5932c994c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9874b1a955f943ca2fc2dab9dc0a8ca8') in 0.013083292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.225552 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Models/Mountain_20.fbx
+  artifactKey: Guid(3b5afa78b1c8a054f8eba04f2e269d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Models/Mountain_20.fbx using Guid(3b5afa78b1c8a054f8eba04f2e269d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f2f04c19803eb43431f2b0cabeb18ac') in 0.421447959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.090542 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_2_A_T.tga
+  artifactKey: Guid(c6042b90895f5f5409f8ccf84b9a03d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_2_A_T.tga using Guid(c6042b90895f5f5409f8ccf84b9a03d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3e7bd677ed8a3c2b8850ff642d49d04') in 0.012634459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_27_N.png
+  artifactKey: Guid(50fab05bbc713804381ed290f35e4cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_27_N.png using Guid(50fab05bbc713804381ed290f35e4cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faaaff0f13fe31a010f131eac5ab60f3') in 0.082568833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_47_N.png
+  artifactKey: Guid(827f1bee8c38f9b4fa932133a899d939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_47_N.png using Guid(827f1bee8c38f9b4fa932133a899d939) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16daacdfd4d242f8a60550837ff3cfcf') in 0.013285709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_20_A_T.tga
+  artifactKey: Guid(624c19f6f85b793469ca33bb9220d54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_20_A_T.tga using Guid(624c19f6f85b793469ca33bb9220d54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd822b63467c8c3a6aa1be88667d50d06') in 0.010997292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_20_AO.png
+  artifactKey: Guid(7f924a5c41e36fc49a9b11fb4704c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_20_AO.png using Guid(7f924a5c41e36fc49a9b11fb4704c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd877d120e64696f1c5e639f16356eb17') in 0.009436916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_27_AO.png
+  artifactKey: Guid(27cd142d1723f564c829635d9c800901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_27_AO.png using Guid(27cd142d1723f564c829635d9c800901) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61e5938b92a5ee6c9bd987e1fde10c3f') in 0.011241458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_23_AO.png
+  artifactKey: Guid(49d9b142ca6fba5468acc1d6078b2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_23_AO.png using Guid(49d9b142ca6fba5468acc1d6078b2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7754fbc2394c073ee473315e5d4049dd') in 0.013202084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_47_AO.png
+  artifactKey: Guid(852df24036ede79488dc9851da3d70ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_47_AO.png using Guid(852df24036ede79488dc9851da3d70ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aef7f871a6cbac0416db2d968b2674e4') in 0.0131885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_20_N.png
+  artifactKey: Guid(079c60ccf6a743044b8d9ed8e6ece93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Textures/T_Mountain_20_N.png using Guid(079c60ccf6a743044b8d9ed8e6ece93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '617edba8af1989ba75964b8f4ffe7a93') in 0.013158542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.607485 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Materials/M_Mountain_20.mat
+  artifactKey: Guid(e114b22ac14caf145b6ec087977286d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Materials/M_Mountain_20.mat using Guid(e114b22ac14caf145b6ec087977286d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd33d3dab76e982638d75801f6c0efc19') in 0.301354083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.191703 seconds.
+  path: Assets/Scenes/LevelOne/ReflectionProbe-0.exr
+  artifactKey: Guid(cfef2d6fe38fb4627a97b8fb63a1bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelOne/ReflectionProbe-0.exr using Guid(cfef2d6fe38fb4627a97b8fb63a1bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57c59f4a2a24ae1026e824aa571b4a53') in 0.028818417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.067 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.164 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.592 seconds
-Domain Reload Profiling: 3662ms
-	BeginReloadAssembly (376ms)
+- Finished resetting the current domain, in  2.772 seconds
+Domain Reload Profiling: 3940ms
+	BeginReloadAssembly (460ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (44ms)
+		DisableScriptedObjects (97ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (96ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (589ms)
-		LoadAssemblies (556ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (190ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (150ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (2594ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2233ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (281ms)
-			ProcessInitializeOnLoadAttributes (1775ms)
-			ProcessInitializeOnLoadMethodAttributes (160ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (3.7 MB). Loaded Objects now: 6762.
-Memory consumption went from 142.8 MB to 139.1 MB.
-Total: 6.015125 ms (FindLiveObjects: 0.557166 ms CreateObjectMapping: 0.227042 ms MarkObjects: 3.741416 ms  DeleteObjects: 1.489041 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.896 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.542 seconds
-Domain Reload Profiling: 3441ms
-	BeginReloadAssembly (257ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (31ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
+		CreateAndSetChildDomain (120ms)
 	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (544ms)
-		LoadAssemblies (470ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (600ms)
+		LoadAssemblies (561ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (182ms)
+		AnalyzeDomain (197ms)
 			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (146ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (2543ms)
+			BuildScriptInfoCaches (154ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (2774ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2189ms)
+		SetupLoadedEditorAssemblies (2384ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (271ms)
-			ProcessInitializeOnLoadAttributes (1726ms)
-			ProcessInitializeOnLoadMethodAttributes (173ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (3.3 MB). Loaded Objects now: 6764.
-Memory consumption went from 142.6 MB to 139.3 MB.
-Total: 6.545666 ms (FindLiveObjects: 0.498292 ms CreateObjectMapping: 0.246625 ms MarkObjects: 3.971083 ms  DeleteObjects: 1.829042 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 353.116605 seconds.
-  path: Assets/Scenes/CreditsMenu.unity
-  artifactKey: Guid(0c464020a768b494aabfffc639bdb867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CreditsMenu.unity using Guid(0c464020a768b494aabfffc639bdb867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcaece708e35e1d39014a8f1a28b6d9a') in 0.002888792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.402565 seconds.
-  path: Assets/Scenes/HelpMenu.unity
-  artifactKey: Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HelpMenu.unity using Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34b9a7aff0a313f637eb9a80db1375b8') in 0.0005185 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.026603 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(63823df083f7a4d9fb5d6fffdf7537dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(63823df083f7a4d9fb5d6fffdf7537dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59835303041f56a78f99809e1a53b209') in 0.001305166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.901 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.575 seconds
-Domain Reload Profiling: 3479ms
-	BeginReloadAssembly (268ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (38ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (538ms)
-		LoadAssemblies (463ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (182ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (145ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (2576ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2217ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (275ms)
-			ProcessInitializeOnLoadAttributes (1743ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (295ms)
+			ProcessInitializeOnLoadAttributes (1891ms)
 			ProcessInitializeOnLoadMethodAttributes (180ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (3.0 MB). Loaded Objects now: 6766.
-Memory consumption went from 142.6 MB to 139.6 MB.
-Total: 6.155541 ms (FindLiveObjects: 0.571125 ms CreateObjectMapping: 0.275583 ms MarkObjects: 3.928875 ms  DeleteObjects: 1.379666 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.078 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.624 seconds
-Domain Reload Profiling: 3705ms
-	BeginReloadAssembly (370ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (44ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (96ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (605ms)
-		LoadAssemblies (568ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (192ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (150ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (2625ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2260ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (286ms)
-			ProcessInitializeOnLoadAttributes (1779ms)
-			ProcessInitializeOnLoadMethodAttributes (176ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (3.6 MB). Loaded Objects now: 6768.
-Memory consumption went from 142.5 MB to 138.9 MB.
-Total: 6.249791 ms (FindLiveObjects: 0.545709 ms CreateObjectMapping: 0.260916 ms MarkObjects: 3.992833 ms  DeleteObjects: 1.449958 ms)
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6078 unused Assets / (3.9 MB). Loaded Objects now: 6872.
+Memory consumption went from 157.3 MB to 153.3 MB.
+Total: 5.459583 ms (FindLiveObjects: 0.434417 ms CreateObjectMapping: 0.256250 ms MarkObjects: 3.527208 ms  DeleteObjects: 1.241292 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 107.220088 seconds.
-  path: Assets/Scenes/HelpMenu.unity
-  artifactKey: Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HelpMenu.unity using Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a03f9a685e43e40adb1025cb5967d248') in 0.003136166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.889616 seconds.
-  path: Assets/Scenes/HelpMenu.unity
-  artifactKey: Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HelpMenu.unity using Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7ffb0d71a44b98b02a132f83b0bef0d') in 0.000627833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.939948 seconds.
-  path: Assets/Scenes/CreditsMenu.unity
-  artifactKey: Guid(0c464020a768b494aabfffc639bdb867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CreditsMenu.unity using Guid(0c464020a768b494aabfffc639bdb867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3935e469bc5faf416af1248e8fc7d8ab') in 0.000545958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 481.486551 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Materials/M_Mountain_22.mat
+  artifactKey: Guid(2fec8b72f83b5ee48bcba45d404ad759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Materials/M_Mountain_22.mat using Guid(2fec8b72f83b5ee48bcba45d404ad759) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17360bc065239eae122d7c5b34b64926') in 4.64081825 seconds
+Number of updated asset objects reloaded before import = 20Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.900 seconds
+- Loaded All Assemblies, in  0.972 seconds
 Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.550 seconds
-Domain Reload Profiling: 3453ms
-	BeginReloadAssembly (269ms)
+- Finished resetting the current domain, in  2.664 seconds
+Domain Reload Profiling: 3639ms
+	BeginReloadAssembly (325ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (38ms)
+		DisableScriptedObjects (70ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (536ms)
-		LoadAssemblies (459ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (146ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (2551ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2190ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (276ms)
-			ProcessInitializeOnLoadAttributes (1718ms)
-			ProcessInitializeOnLoadMethodAttributes (177ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (3.2 MB). Loaded Objects now: 6770.
-Memory consumption went from 142.5 MB to 139.4 MB.
-Total: 6.294125 ms (FindLiveObjects: 0.552250 ms CreateObjectMapping: 0.262042 ms MarkObjects: 4.069458 ms  DeleteObjects: 1.410125 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.905 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.549 seconds
-Domain Reload Profiling: 3457ms
-	BeginReloadAssembly (266ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (37ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (544ms)
-		LoadAssemblies (464ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (183ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (146ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (2550ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2190ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (281ms)
-			ProcessInitializeOnLoadAttributes (1717ms)
-			ProcessInitializeOnLoadMethodAttributes (172ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (4.0 MB). Loaded Objects now: 6772.
-Memory consumption went from 142.4 MB to 138.4 MB.
-Total: 6.118166 ms (FindLiveObjects: 0.601208 ms CreateObjectMapping: 0.257041 ms MarkObjects: 3.743709 ms  DeleteObjects: 1.515959 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.879 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.520 seconds
-Domain Reload Profiling: 3403ms
-	BeginReloadAssembly (268ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (37ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (517ms)
-		LoadAssemblies (441ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (183ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (145ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (2521ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2162ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (273ms)
-			ProcessInitializeOnLoadAttributes (1705ms)
-			ProcessInitializeOnLoadMethodAttributes (165ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (3.9 MB). Loaded Objects now: 6774.
-Memory consumption went from 142.4 MB to 138.5 MB.
-Total: 6.019375 ms (FindLiveObjects: 0.543542 ms CreateObjectMapping: 0.263750 ms MarkObjects: 3.845083 ms  DeleteObjects: 1.366458 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.924 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.518 seconds
-Domain Reload Profiling: 3445ms
-	BeginReloadAssembly (279ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (39ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (64ms)
+		CreateAndSetChildDomain (76ms)
 	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (549ms)
-		LoadAssemblies (474ms)
+	LoadAllAssembliesAndSetupDomain (551ms)
+		LoadAssemblies (475ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (147ms)
-			ResolveRequiredComponents (30ms)
-	FinalizeReload (2519ms)
+			BuildScriptInfoCaches (146ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (2665ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2158ms)
+		SetupLoadedEditorAssemblies (2267ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (280ms)
-			ProcessInitializeOnLoadAttributes (1689ms)
-			ProcessInitializeOnLoadMethodAttributes (170ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (283ms)
+			ProcessInitializeOnLoadAttributes (1797ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -738,256 +536,435 @@ Domain Reload Profiling: 3445ms
 Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (3.9 MB). Loaded Objects now: 6776.
-Memory consumption went from 142.4 MB to 138.5 MB.
-Total: 5.996500 ms (FindLiveObjects: 0.518166 ms CreateObjectMapping: 0.262708 ms MarkObjects: 3.801333 ms  DeleteObjects: 1.413583 ms)
+Unloading 6079 unused Assets / (3.4 MB). Loaded Objects now: 6894.
+Memory consumption went from 155.0 MB to 151.5 MB.
+Total: 6.319458 ms (FindLiveObjects: 0.516709 ms CreateObjectMapping: 0.261417 ms MarkObjects: 4.087042 ms  DeleteObjects: 1.453375 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+Received Import Request.
+  Time since last request: 9.466088 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Materials/M_Mountain_27.mat
+  artifactKey: Guid(38d2eb411db571543a1465a066926c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Models/Materials/M_Mountain_27.mat using Guid(38d2eb411db571543a1465a066926c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1685aa8046598c893a9ce303f0df8f6b') in 1.324612875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.867 seconds
+- Loaded All Assemblies, in  0.990 seconds
 Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.539 seconds
-Domain Reload Profiling: 3409ms
-	BeginReloadAssembly (265ms)
+- Finished resetting the current domain, in  2.715 seconds
+Domain Reload Profiling: 3708ms
+	BeginReloadAssembly (322ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (37ms)
+		DisableScriptedObjects (72ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (508ms)
-		LoadAssemblies (429ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (570ms)
+		LoadAssemblies (491ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (149ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (2540ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2183ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (271ms)
-			ProcessInitializeOnLoadAttributes (1715ms)
-			ProcessInitializeOnLoadMethodAttributes (178ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (4.1 MB). Loaded Objects now: 6778.
-Memory consumption went from 142.4 MB to 138.4 MB.
-Total: 6.317958 ms (FindLiveObjects: 0.667250 ms CreateObjectMapping: 0.249583 ms MarkObjects: 3.975708 ms  DeleteObjects: 1.424750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 168.249040 seconds.
-  path: Assets/Scenes/HelpMenu.unity
-  artifactKey: Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HelpMenu.unity using Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '893d8c538f902f39f2d83a317f5e607f') in 0.002991417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.148240 seconds.
-  path: Assets/Scenes/HelpMenu.unity
-  artifactKey: Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HelpMenu.unity using Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04b17bc6f8bf02e39ab6d4ccb6fc1d17') in 0.000622875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.276109 seconds.
-  path: Assets/Scenes/CreditsMenu.unity
-  artifactKey: Guid(0c464020a768b494aabfffc639bdb867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CreditsMenu.unity using Guid(0c464020a768b494aabfffc639bdb867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6300e6d4a67a5d520c2d8369efaeec9') in 0.000395834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.681797 seconds.
-  path: Assets/Scenes/HelpMenu.unity
-  artifactKey: Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HelpMenu.unity using Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73a5a318c7ebace9e598288f59a3970a') in 0.000510625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.119080 seconds.
-  path: Assets/Scenes/HelpMenu.unity
-  artifactKey: Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HelpMenu.unity using Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c64f0f241797c51b0f116860d6b57fd6') in 0.000526125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.946 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.572 seconds
-Domain Reload Profiling: 3522ms
-	BeginReloadAssembly (273ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (37ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (578ms)
-		LoadAssemblies (498ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (189ms)
+		AnalyzeDomain (186ms)
 			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (149ms)
+			BuildScriptInfoCaches (148ms)
 			ResolveRequiredComponents (30ms)
-	FinalizeReload (2573ms)
+	FinalizeReload (2716ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2208ms)
+		SetupLoadedEditorAssemblies (2332ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (278ms)
-			ProcessInitializeOnLoadAttributes (1734ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (284ms)
+			ProcessInitializeOnLoadAttributes (1853ms)
 			ProcessInitializeOnLoadMethodAttributes (176ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (3.9 MB). Loaded Objects now: 6780.
-Memory consumption went from 142.4 MB to 138.6 MB.
-Total: 6.098875 ms (FindLiveObjects: 0.526917 ms CreateObjectMapping: 0.259959 ms MarkObjects: 3.848750 ms  DeleteObjects: 1.462708 ms)
+Unloading 6079 unused Assets / (3.9 MB). Loaded Objects now: 6916.
+Memory consumption went from 158.8 MB to 154.9 MB.
+Total: 5.810458 ms (FindLiveObjects: 0.510292 ms CreateObjectMapping: 0.235958 ms MarkObjects: 3.792167 ms  DeleteObjects: 1.271250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6074 unused Assets / (4.1 MB). Loaded Objects now: 6918.
+Memory consumption went from 151.8 MB to 147.7 MB.
+Total: 14.952500 ms (FindLiveObjects: 0.796542 ms CreateObjectMapping: 0.255666 ms MarkObjects: 12.257250 ms  DeleteObjects: 1.642292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6074 unused Assets / (3.1 MB). Loaded Objects now: 6918.
+Memory consumption went from 151.8 MB to 148.7 MB.
+Total: 6.514833 ms (FindLiveObjects: 0.720167 ms CreateObjectMapping: 0.184625 ms MarkObjects: 3.974041 ms  DeleteObjects: 1.635375 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 144.017355 seconds.
-  path: Assets/Scenes/LevelOne.unity
-  artifactKey: Guid(d5e822f036010a347825320b719a31f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelOne.unity using Guid(d5e822f036010a347825320b719a31f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d0b89c1327d422908f6ace8a2f3644a') in 0.004386042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 905.723693 seconds.
+  path: Assets/Imports/WaterWorks/Water_Plane.prefab
+  artifactKey: Guid(6e0965b76baec374d9a8e0c82f9033cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/WaterWorks/Water_Plane.prefab using Guid(6e0965b76baec374d9a8e0c82f9033cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a741ec843ee1f889462168b0fbc029e') in 11.163835208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
 
 ========================================================================
 Received Prepare
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6074 unused Assets / (2.9 MB). Loaded Objects now: 7061.
+Memory consumption went from 161.8 MB to 159.0 MB.
+Total: 29.768375 ms (FindLiveObjects: 0.708417 ms CreateObjectMapping: 0.288250 ms MarkObjects: 27.173833 ms  DeleteObjects: 1.596583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.002 seconds
+- Loaded All Assemblies, in  1.222 seconds
 Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.545 seconds
-Domain Reload Profiling: 3550ms
-	BeginReloadAssembly (301ms)
+- Finished resetting the current domain, in  2.724 seconds
+Domain Reload Profiling: 3949ms
+	BeginReloadAssembly (515ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (40ms)
+		DisableScriptedObjects (95ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (33ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (148ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (605ms)
-		LoadAssemblies (539ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (602ms)
+		LoadAssemblies (597ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (192ms)
-			TypeCache.Refresh (7ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (154ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (2546ms)
+			BuildScriptInfoCaches (153ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2725ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2181ms)
+		SetupLoadedEditorAssemblies (2336ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (278ms)
-			ProcessInitializeOnLoadAttributes (1714ms)
-			ProcessInitializeOnLoadMethodAttributes (168ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (312ms)
+			ProcessInitializeOnLoadAttributes (1844ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (3.5 MB). Loaded Objects now: 6782.
-Memory consumption went from 142.3 MB to 138.8 MB.
-Total: 6.483500 ms (FindLiveObjects: 0.578041 ms CreateObjectMapping: 0.278209 ms MarkObjects: 4.110875 ms  DeleteObjects: 1.515875 ms)
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6081 unused Assets / (4.1 MB). Loaded Objects now: 6942.
+Memory consumption went from 165.6 MB to 161.5 MB.
+Total: 6.044625 ms (FindLiveObjects: 0.543167 ms CreateObjectMapping: 0.249459 ms MarkObjects: 3.889792 ms  DeleteObjects: 1.361916 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 923.657049 seconds.
-  path: Assets/Scenes/LevelOne.unity
-  artifactKey: Guid(d5e822f036010a347825320b719a31f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelOne.unity using Guid(d5e822f036010a347825320b719a31f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51378dc9974a8555378b65c5a0a01e7f') in 0.017995 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.919 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.634 seconds
+Domain Reload Profiling: 3556ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (551ms)
+		LoadAssemblies (477ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (145ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (2635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (281ms)
+			ProcessInitializeOnLoadAttributes (1802ms)
+			ProcessInitializeOnLoadMethodAttributes (159ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6081 unused Assets / (3.5 MB). Loaded Objects now: 6944.
+Memory consumption went from 163.7 MB to 160.2 MB.
+Total: 6.342500 ms (FindLiveObjects: 0.581541 ms CreateObjectMapping: 0.278708 ms MarkObjects: 3.993417 ms  DeleteObjects: 1.488375 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.151 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.995 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.630 seconds
-Domain Reload Profiling: 3784ms
-	BeginReloadAssembly (416ms)
+- Finished resetting the current domain, in  2.772 seconds
+Domain Reload Profiling: 3769ms
+	BeginReloadAssembly (325ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (47ms)
+		DisableScriptedObjects (65ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (120ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (629ms)
-		LoadAssemblies (586ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (569ms)
+		LoadAssemblies (505ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (207ms)
-			TypeCache.Refresh (9ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (167ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (2631ms)
+			BuildScriptInfoCaches (151ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2773ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2248ms)
+		SetupLoadedEditorAssemblies (2376ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (294ms)
-			ProcessInitializeOnLoadAttributes (1750ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (307ms)
+			ProcessInitializeOnLoadAttributes (1866ms)
 			ProcessInitializeOnLoadMethodAttributes (184ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (4.0 MB). Loaded Objects now: 6784.
-Memory consumption went from 142.2 MB to 138.3 MB.
-Total: 6.284917 ms (FindLiveObjects: 0.654791 ms CreateObjectMapping: 0.255042 ms MarkObjects: 3.874666 ms  DeleteObjects: 1.498083 ms)
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6081 unused Assets / (4.1 MB). Loaded Objects now: 6946.
+Memory consumption went from 163.7 MB to 159.6 MB.
+Total: 6.286583 ms (FindLiveObjects: 0.481959 ms CreateObjectMapping: 0.277792 ms MarkObjects: 3.853250 ms  DeleteObjects: 1.672958 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 314.934749 seconds.
+  path: Assets/Imports/WaterWorks/Resources/Water_Volume.mat
+  artifactKey: Guid(ad0a7fc2d1190ff46985f49b15861c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/WaterWorks/Resources/Water_Volume.mat using Guid(ad0a7fc2d1190ff46985f49b15861c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Shader error in 'GapperGames/Volumetric_Water': 'BuildVaryings': no matching 1 parameter function at II/Team1-Proj1-Prototype/Library/PackageCache/com.unity.render-pipelines.universal@d680fce5716f/Editor/ShaderGraph/Includes/UnlitPass.hlsl(29) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(72) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(73) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(94) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(95) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(113) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': 'Cellular': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(140) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(140) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(170) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': 'lerp': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(172) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader error in 'GapperGames/Volumetric_Water': 'BuildVaryings': no matching 1 parameter function at II/Team1-Proj1-Prototype/Library/PackageCache/com.unity.render-pipelines.universal@d680fce5716f/Editor/ShaderGraph/Includes/UnlitPass.hlsl(29) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(72) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(73) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(94) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(95) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(113) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': 'Cellular': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(140) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(140) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(170) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+Shader warning in 'GapperGames/Volumetric_Water': 'lerp': implicit truncation of vector type at Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl(172) (on metal)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS _SCREEN_SPACE_OCCLUSION
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_OFF _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SHADOWS_SOFT
+ -> (artifact id: '97628c4bb552a28cd124d3f37ffa4f68') in 1.560408958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088215 seconds.
+  path: Assets/Imports/WaterWorks/Shaders/Edge_Distance.shadersubgraph
+  artifactKey: Guid(855e1b7d514c442498370d0fb61777c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/WaterWorks/Shaders/Edge_Distance.shadersubgraph using Guid(855e1b7d514c442498370d0fb61777c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '109fec216e49bb22182405414bbd54be') in 0.006317833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Imports/WaterWorks/Shaders/Refraction_Water.shadersubgraph
+  artifactKey: Guid(484fd2cdea9f33c47ba61290a601149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/WaterWorks/Shaders/Refraction_Water.shadersubgraph using Guid(484fd2cdea9f33c47ba61290a601149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4aafa421d819bc3642f1c7004451d819') in 0.001191792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Imports/WaterWorks/Shaders/WSUV_Water.shadersubgraph
+  artifactKey: Guid(018fad018d058a44caa283cdf595320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/WaterWorks/Shaders/WSUV_Water.shadersubgraph using Guid(018fad018d058a44caa283cdf595320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02d5b1e1519c3f326bf7beae38e9d28f') in 0.001067125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Imports/WaterWorks/Shaders/WaterSSR.hlsl
+  artifactKey: Guid(c5b37cbbf3d8f1647a9353a204560486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/WaterWorks/Shaders/WaterSSR.hlsl using Guid(c5b37cbbf3d8f1647a9353a204560486) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b8491afd673878511cd9263933f9c88') in 0.001755542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Imports/WaterWorks/Shaders/WaterDepthToWorldPos.shadersubgraph
+  artifactKey: Guid(48489c6a22e34554e80fc4885c307b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/WaterWorks/Shaders/WaterDepthToWorldPos.shadersubgraph using Guid(48489c6a22e34554e80fc4885c307b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4422769626ecdcb80fbe7e49a466b599') in 0.001200667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Imports/WaterWorks/Shaders/Wave_Distance.shadersubgraph
+  artifactKey: Guid(d58957f120086c44a95a7eb2f92ccc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/WaterWorks/Shaders/Wave_Distance.shadersubgraph using Guid(d58957f120086c44a95a7eb2f92ccc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2783221d44eacd4068740ed78e259e7e') in 0.001182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl
+  artifactKey: Guid(1dba11cee32958e468be69925adcf4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/WaterWorks/Shaders/Water_Volume.hlsl using Guid(1dba11cee32958e468be69925adcf4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c142958febd3a790c42218825f24f70f') in 0.000797542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.016114 seconds.
+  path: Assets/Imports/WaterWorks/Materials/SSR_Water.mat
+  artifactKey: Guid(edcfc5aaa4ab59e4cb087049354cfae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/WaterWorks/Materials/SSR_Water.mat using Guid(edcfc5aaa4ab59e4cb087049354cfae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb4acd8a9777530398676b5004fcfa4c') in 0.083070583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Imports/WaterWorks/Materials/SSR_Water_Bright.mat
+  artifactKey: Guid(2e7fa2e78657b1e429472827526c75ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/WaterWorks/Materials/SSR_Water_Bright.mat using Guid(2e7fa2e78657b1e429472827526c75ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b49233f7108b6b38490c2632c392daa') in 0.013258875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

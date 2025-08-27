@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53780
+58513
 -job-worker-count
 3
 -background-job-worker-count
@@ -66,12 +66,12 @@ Successfully changed project path to: /Users/sashapopovici/Desktop/Project 1-Des
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8728961536]  Target information:
+Player connection [8795218432]  Target information:
 
-Player connection [8728961536]  * "[IP] 172.30.128.227 [Port] 0 [Flags] 2 [Guid] 1438075228 [EditorId] 1438075228 [Version] 1048832 [Id] OSXEditor(0,Sashas-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8795218432]  * "[IP] 192.168.1.116 [Port] 0 [Flags] 2 [Guid] 2195734219 [EditorId] 2195734219 [Version] 1048832 [Id] OSXEditor(0,Mac.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8728961536] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8728961536] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8795218432] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8795218432] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -83,7 +83,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.43f1 (97272b72f107)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
@@ -98,43 +98,43 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56709
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56527
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001695 seconds.
-- Loaded All Assemblies, in  0.494 seconds
+Registered in 0.001672 seconds.
+- Loaded All Assemblies, in  0.478 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.334 seconds
-Domain Reload Profiling: 1829ms
-	BeginReloadAssembly (204ms)
+- Finished resetting the current domain, in  1.318 seconds
+Domain Reload Profiling: 1798ms
+	BeginReloadAssembly (198ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (112ms)
-	LoadAllAssembliesAndSetupDomain (132ms)
-		LoadAssemblies (202ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (108ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (197ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (126ms)
-			TypeCache.Refresh (123ms)
-				TypeCache.ScanAssembly (111ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (110ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (1336ms)
+	FinalizeReload (1319ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1269ms)
+		SetupLoadedEditorAssemblies (1252ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (154ms)
+			InitializePlatformSupportModulesInManaged (152ms)
 			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (251ms)
-			ProcessInitializeOnLoadAttributes (547ms)
-			ProcessInitializeOnLoadMethodAttributes (304ms)
+			BeforeProcessingInitializeOnLoad (241ms)
+			ProcessInitializeOnLoadAttributes (528ms)
+			ProcessInitializeOnLoadMethodAttributes (318ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,214 +143,2280 @@ Domain Reload Profiling: 1829ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.001 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.077 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.581 seconds
-Domain Reload Profiling: 3579ms
-	BeginReloadAssembly (244ms)
+- Finished resetting the current domain, in  2.992 seconds
+Domain Reload Profiling: 4066ms
+	BeginReloadAssembly (258ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (31ms)
+		DisableScriptedObjects (32ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (87ms)
-	LoadAllAssembliesAndSetupDomain (621ms)
-		LoadAssemblies (492ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (680ms)
+		LoadAssemblies (531ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (132ms)
-			BuildScriptInfoCaches (57ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (2582ms)
+		AnalyzeDomain (263ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (151ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2993ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2270ms)
+		SetupLoadedEditorAssemblies (2645ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (282ms)
-			ProcessInitializeOnLoadAttributes (1759ms)
-			ProcessInitializeOnLoadMethodAttributes (212ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (318ms)
+			ProcessInitializeOnLoadAttributes (2076ms)
+			ProcessInitializeOnLoadMethodAttributes (226ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6042 unused Assets / (4.0 MB). Loaded Objects now: 6741.
-Memory consumption went from 155.6 MB to 151.6 MB.
-Total: 6.722500 ms (FindLiveObjects: 0.677250 ms CreateObjectMapping: 0.270750 ms MarkObjects: 4.061958 ms  DeleteObjects: 1.711750 ms)
+Unloading 6042 unused Assets / (2.8 MB). Loaded Objects now: 6741.
+Memory consumption went from 155.4 MB to 152.6 MB.
+Total: 7.309208 ms (FindLiveObjects: 0.571958 ms CreateObjectMapping: 0.278959 ms MarkObjects: 4.834750 ms  DeleteObjects: 1.622500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 108438.725672 seconds.
+  Time since last request: 132515.211498 seconds.
   path: Assets/Scenes/MainMenu.unity
   artifactKey: Guid(63823df083f7a4d9fb5d6fffdf7537dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(63823df083f7a4d9fb5d6fffdf7537dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9976f00ff3cc8def05af596c94e70965') in 0.006645792 seconds
+Start importing Assets/Scenes/MainMenu.unity using Guid(63823df083f7a4d9fb5d6fffdf7537dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b33c4d4947d483035b6325cc3b4e81e') in 0.007099667 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.025094 seconds.
-  path: Assets/Scenes/HelpScene.unity
-  artifactKey: Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HelpScene.unity using Guid(1c20252c2e9f149eba0c2928d565e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3453ef51ff5e5367b7d60a490c263383') in 0.000671583 seconds
+  Time since last request: 705.007065 seconds.
+  path: Assets/Pysics Materials/Player.physicMaterial
+  artifactKey: Guid(aea09130bab76ec46964b4d1787ae16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pysics Materials/Player.physicMaterial using Guid(aea09130bab76ec46964b4d1787ae16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7c0f93d0afcd970daeb9428d2b976b4') in 0.067747167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.769181 seconds.
+  path: Assets/Materials/Images
+  artifactKey: Guid(2f97a17dde45d47118f5c1dafa835a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Images using Guid(2f97a17dde45d47118f5c1dafa835a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '481d5f4aed30c2bddde1e2d26f1bbb29') in 0.000794291 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.486868 seconds.
-  path: Assets/Scenes/CreditsMenu.unity
-  artifactKey: Guid(0c464020a768b494aabfffc639bdb867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CreditsMenu.unity using Guid(0c464020a768b494aabfffc639bdb867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31926a5278a7cf621d305e4512722ef2') in 0.001743625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 15.893525 seconds.
+  path: Assets/Materials/Images/main menu image.jpg
+  artifactKey: Guid(4cdc44526333b4ce7bb05d64de2bbd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Images/main menu image.jpg using Guid(4cdc44526333b4ce7bb05d64de2bbd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fdad9745b2dcd8c04ff9cc68678da43') in 0.160756208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 194.504651 seconds.
-  path: Assets/Settings/DefaultVolumeProfile.asset
-  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10528149371aefc32227726816d72a59') in 0.068501542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b72c935079ba95563e246d02d57d535f') in 0.00137475 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aef1b5780e7730518d46eb0d392eb05') in 0.003980208 seconds
+  Time since last request: 15.413846 seconds.
+  path: Assets/Materials/Images/main menu image.jpg
+  artifactKey: Guid(4cdc44526333b4ce7bb05d64de2bbd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Images/main menu image.jpg using Guid(4cdc44526333b4ce7bb05d64de2bbd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '847d1a1dfbe26aa182805da8d15f0b9a') in 0.030301 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.122 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.560 seconds
+Domain Reload Profiling: 3685ms
+	BeginReloadAssembly (431ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (48ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (124ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
+		LoadAssemblies (561ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (157ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2561ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2171ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (283ms)
+			ProcessInitializeOnLoadAttributes (1710ms)
+			ProcessInitializeOnLoadMethodAttributes (159ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6031 unused Assets / (2.6 MB). Loaded Objects now: 6744.
-Memory consumption went from 122.5 MB to 119.9 MB.
-Total: 12.603083 ms (FindLiveObjects: 0.787000 ms CreateObjectMapping: 0.226875 ms MarkObjects: 10.274708 ms  DeleteObjects: 1.314041 ms)
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6077 unused Assets / (3.7 MB). Loaded Objects now: 6801.
+Memory consumption went from 144.6 MB to 140.9 MB.
+Total: 6.331125 ms (FindLiveObjects: 0.440291 ms CreateObjectMapping: 0.278667 ms MarkObjects: 4.094417 ms  DeleteObjects: 1.516958 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 11.622152 seconds.
-  path: Assets/Scripts/MainMenuController.cs
-  artifactKey: Guid(6db8ce7f977c44dcb8fe1deee6498535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenuController.cs using Guid(6db8ce7f977c44dcb8fe1deee6498535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b9f2ec45bd65fb42d0c36a287217bfe') in 0.000446958 seconds
+  Time since last request: 77.149460 seconds.
+  path: Assets/Materials/Images/main menu image.jpg
+  artifactKey: Guid(4cdc44526333b4ce7bb05d64de2bbd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Images/main menu image.jpg using Guid(4cdc44526333b4ce7bb05d64de2bbd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25d6d5c1e83a0ee832f1d8991feeaea6') in 0.13164775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.862219 seconds.
+  path: Assets/Materials/Images/New Material.mat
+  artifactKey: Guid(27898e11b1bdf4b14a4301b0abd23b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Images/New Material.mat using Guid(27898e11b1bdf4b14a4301b0abd23b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a207bb582f60568164ebaa80f73c901') in 1.320351833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.477711 seconds.
+  path: Assets/Materials/Images/New Material.mat
+  artifactKey: Guid(27898e11b1bdf4b14a4301b0abd23b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Images/New Material.mat using Guid(27898e11b1bdf4b14a4301b0abd23b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b40f1ad1d24f6e03904a09ed2a261ce7') in 3.429558917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.879838 seconds.
+  path: Assets/Materials/Images/main menu image.png
+  artifactKey: Guid(039818aec8027429c9ac86029fee11c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Images/main menu image.png using Guid(039818aec8027429c9ac86029fee11c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36531b7a14c1006e31aebe8ead0c4eae') in 0.052350458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.690588 seconds.
+  path: Assets/Materials/Images/main menu image.png
+  artifactKey: Guid(039818aec8027429c9ac86029fee11c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Images/main menu image.png using Guid(039818aec8027429c9ac86029fee11c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d920e724667de6450c53a366bc644a7') in 0.019765959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.567402 seconds.
+  path: Assets/Materials/Images/main menu image.png
+  artifactKey: Guid(039818aec8027429c9ac86029fee11c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Images/main menu image.png using Guid(039818aec8027429c9ac86029fee11c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e356c93f8d08719251ceae730bc080b1') in 0.093155083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.116 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.452 seconds
+Domain Reload Profiling: 3572ms
+	BeginReloadAssembly (413ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (85ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (139ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (600ms)
+		LoadAssemblies (516ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (162ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2453ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2101ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (266ms)
+			ProcessInitializeOnLoadAttributes (1672ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6078 unused Assets / (4.0 MB). Loaded Objects now: 6867.
+Memory consumption went from 149.9 MB to 145.9 MB.
+Total: 6.194166 ms (FindLiveObjects: 0.467625 ms CreateObjectMapping: 0.287125 ms MarkObjects: 3.992750 ms  DeleteObjects: 1.445959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.913 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.450 seconds
+Domain Reload Profiling: 3366ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (561ms)
+		LoadAssemblies (483ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (148ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2451ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2103ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (269ms)
+			ProcessInitializeOnLoadAttributes (1667ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6077 unused Assets / (3.8 MB). Loaded Objects now: 6869.
+Memory consumption went from 149.7 MB to 145.9 MB.
+Total: 6.038292 ms (FindLiveObjects: 0.475625 ms CreateObjectMapping: 0.257458 ms MarkObjects: 3.863583 ms  DeleteObjects: 1.440875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.026 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.525 seconds
+Domain Reload Profiling: 3554ms
+	BeginReloadAssembly (340ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (43ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (589ms)
+		LoadAssemblies (517ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (157ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (2526ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2175ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (269ms)
+			ProcessInitializeOnLoadAttributes (1727ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6077 unused Assets / (3.9 MB). Loaded Objects now: 6871.
+Memory consumption went from 149.7 MB to 145.8 MB.
+Total: 6.394125 ms (FindLiveObjects: 0.530875 ms CreateObjectMapping: 0.286750 ms MarkObjects: 4.104292 ms  DeleteObjects: 1.471333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 471.121423 seconds.
+  path: Assets/Imports/Sounds
+  artifactKey: Guid(64509a596b19947ceafdfab4ca5950ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Sounds using Guid(64509a596b19947ceafdfab4ca5950ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '872156c4bcab1f67ff7d41de8e3d91d6') in 0.00920875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.118254 seconds.
+  path: Assets/Imports/Sounds/Music
+  artifactKey: Guid(f8d5fc6f2d12146c3b381687bb562a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Sounds/Music using Guid(f8d5fc6f2d12146c3b381687bb562a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1d2f538dbfa290163cfc8c0c5f2545f') in 0.00072525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.466003 seconds.
+  path: Assets/Imports/Sounds/Music/Proj1_MainMenuSong.mp3
+  artifactKey: Guid(088fa52acc7ee43238c53c1ee299f75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Sounds/Music/Proj1_MainMenuSong.mp3 using Guid(088fa52acc7ee43238c53c1ee299f75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cffbe200058ff45b1798e54884fd9384') in 0.223893958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6071 unused Assets / (3.5 MB). Loaded Objects now: 6875.
+Memory consumption went from 142.5 MB to 138.9 MB.
+Total: 17.517417 ms (FindLiveObjects: 0.682750 ms CreateObjectMapping: 0.261041 ms MarkObjects: 14.775958 ms  DeleteObjects: 1.796833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 140.176103 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6846bd74fa300d84d43b78880f70eb4b') in 0.00117975 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.299 seconds
+- Loaded All Assemblies, in  1.148 seconds
 Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.553 seconds
-Domain Reload Profiling: 4856ms
-	BeginReloadAssembly (487ms)
+- Finished resetting the current domain, in  2.569 seconds
+Domain Reload Profiling: 3721ms
+	BeginReloadAssembly (417ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (49ms)
+		DisableScriptedObjects (57ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (137ms)
-	RebuildCommonClasses (36ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (117ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (695ms)
-		LoadAssemblies (656ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (627ms)
+		LoadAssemblies (566ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (216ms)
-			TypeCache.Refresh (11ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (14ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (170ms)
-			ResolveRequiredComponents (30ms)
-	FinalizeReload (3554ms)
+			BuildScriptInfoCaches (166ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2570ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3108ms)
+		SetupLoadedEditorAssemblies (2208ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (519ms)
-			ProcessInitializeOnLoadAttributes (2379ms)
-			ProcessInitializeOnLoadMethodAttributes (182ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (281ms)
+			ProcessInitializeOnLoadAttributes (1747ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (2.7 MB). Loaded Objects now: 6759.
-Memory consumption went from 144.5 MB to 141.8 MB.
-Total: 10.112042 ms (FindLiveObjects: 0.849500 ms CreateObjectMapping: 0.345833 ms MarkObjects: 5.640083 ms  DeleteObjects: 3.276084 ms)
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6078 unused Assets / (4.1 MB). Loaded Objects now: 6876.
+Memory consumption went from 149.6 MB to 145.6 MB.
+Total: 6.174208 ms (FindLiveObjects: 0.483792 ms CreateObjectMapping: 0.272291 ms MarkObjects: 3.874792 ms  DeleteObjects: 1.542666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.853821 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.003048916 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000389667 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071213 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000377459 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193889 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000416 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075454 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000421792 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195085 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00038675 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069171 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000435709 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195950 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000566208 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.191255 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000700625 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.168794 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000550208 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178307 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000594625 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066121 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000556083 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.194060 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000550625 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180428 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000518375 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071262 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005965 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192483 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000606292 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.174945 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000641416 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.166389 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000570625 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.187987 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000542916 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.170743 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000441791 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073411 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000489333 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193453 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000452083 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.184755 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000521916 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178228 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000421625 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065993 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000480042 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078442 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000746583 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200409 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000463542 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.176092 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000499709 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070308 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000440833 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093535 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000456583 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.175373 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000545625 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073773 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000570792 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193859 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000811458 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069386 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000616541 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196954 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000665375 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.183217 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00058025 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.175391 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000560375 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079768 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000633875 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.154533 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000715833 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.186923 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00076475 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075373 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000525833 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078303 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000413625 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087347 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000511333 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.184537 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000557417 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073391 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000460458 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192112 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000636167 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069441 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000641166 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.188160 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000645583 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.183478 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000549125 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066273 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00054775 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.189811 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000477166 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180659 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000699125 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.181499 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000532875 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173136 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000552792 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.185366 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000504708 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178246 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000590542 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.183045 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000681209 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071288 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000571167 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078944 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000616917 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.187236 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000540834 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070439 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000516792 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080366 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000477625 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193417 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000537541 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178741 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000451708 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066024 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00048 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081924 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000461667 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081387 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0004795 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192478 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000445667 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068620 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000485834 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195008 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00051 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178061 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000421041 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.174702 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000884666 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071231 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000466708 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079873 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000486375 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192903 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000675958 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178575 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000506959 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178718 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00039225 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180032 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000381917 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179148 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000353459 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180589 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000334541 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180299 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000387541 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179412 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000351292 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179409 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000338584 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179452 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000402084 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.181387 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000463709 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.176338 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005325 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070920 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000450708 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.191872 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000571208 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067189 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0004585 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180572 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000387416 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193723 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000496917 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068302 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000460542 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192083 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000456875 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068588 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000510583 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080666 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.002724 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.189030 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001894959 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173480 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000513041 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.182128 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000519416 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179814 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000717542 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178011 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000671666 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180821 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000529125 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066401 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000457333 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192178 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000509917 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.168942 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00049225 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193812 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000533583 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.177362 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000451208 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069745 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000426 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.190806 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000414583 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179599 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000528583 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.182394 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000467167 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067387 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000462708 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.190243 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000458375 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180176 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000373542 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.177655 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000408709 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.181393 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000347459 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067870 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000395625 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.194106 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000377417 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179907 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000368208 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179938 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0003965 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.175600 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000546833 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.190495 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000505959 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.170829 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000606084 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.181427 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000534666 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179843 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000502041 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180857 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000922917 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.150889 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00094725 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.185142 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000668458 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.182644 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000606083 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.182445 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000491084 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.184686 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00061275 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.165976 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000613667 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076273 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000555292 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.188679 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000863167 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.186420 seconds.
+  path: Assets/Scripts/MusicPlayer.cs
+  artifactKey: Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicPlayer.cs using Guid(9df3edab324aa424399079746cd8368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000540375 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+  ERROR: Build asset version error: assets/scripts/musicplayer.cs in SourceAssetDB has modification time of '2025-08-26T21:25:24Z' while content on disk has modification time of '2025-08-26T21:25:42Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.129 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.567 seconds
+Domain Reload Profiling: 3700ms
+	BeginReloadAssembly (412ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (55ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (612ms)
+		LoadAssemblies (574ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (162ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2568ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2196ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (300ms)
+			ProcessInitializeOnLoadAttributes (1716ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6078 unused Assets / (3.3 MB). Loaded Objects now: 6878.
+Memory consumption went from 149.5 MB to 146.2 MB.
+Total: 6.416167 ms (FindLiveObjects: 0.569583 ms CreateObjectMapping: 0.260458 ms MarkObjects: 4.155459 ms  DeleteObjects: 1.430291 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.177 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.911 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.367 seconds
-Domain Reload Profiling: 4548ms
-	BeginReloadAssembly (374ms)
+- Finished resetting the current domain, in  2.495 seconds
+Domain Reload Profiling: 3409ms
+	BeginReloadAssembly (279ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (41ms)
+		DisableScriptedObjects (33ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (100ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (696ms)
-		LoadAssemblies (627ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (536ms)
+		LoadAssemblies (471ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (215ms)
-			TypeCache.Refresh (10ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (173ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (3369ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2496ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2929ms)
+		SetupLoadedEditorAssemblies (2131ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (373ms)
-			ProcessInitializeOnLoadAttributes (2297ms)
-			ProcessInitializeOnLoadMethodAttributes (236ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (282ms)
+			ProcessInitializeOnLoadAttributes (1662ms)
+			ProcessInitializeOnLoadMethodAttributes (170ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6038 unused Assets / (3.5 MB). Loaded Objects now: 6761.
-Memory consumption went from 142.6 MB to 139.1 MB.
-Total: 8.818334 ms (FindLiveObjects: 0.787833 ms CreateObjectMapping: 0.240750 ms MarkObjects: 5.326792 ms  DeleteObjects: 2.461709 ms)
+Unloading 6078 unused Assets / (3.9 MB). Loaded Objects now: 6880.
+Memory consumption went from 149.4 MB to 145.5 MB.
+Total: 8.417208 ms (FindLiveObjects: 0.991583 ms CreateObjectMapping: 0.311000 ms MarkObjects: 5.529708 ms  DeleteObjects: 1.584166 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.953 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.527 seconds
+Domain Reload Profiling: 3483ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (474ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (156ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2528ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2159ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (289ms)
+			ProcessInitializeOnLoadAttributes (1700ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6078 unused Assets / (3.2 MB). Loaded Objects now: 6882.
+Memory consumption went from 149.4 MB to 146.2 MB.
+Total: 6.663500 ms (FindLiveObjects: 0.593334 ms CreateObjectMapping: 0.281916 ms MarkObjects: 4.229209 ms  DeleteObjects: 1.558500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.116 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.480 seconds
+Domain Reload Profiling: 3599ms
+	BeginReloadAssembly (450ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (39ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (125ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (566ms)
+		LoadAssemblies (567ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (159ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (2481ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2126ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (275ms)
+			ProcessInitializeOnLoadAttributes (1684ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6078 unused Assets / (4.0 MB). Loaded Objects now: 6884.
+Memory consumption went from 149.4 MB to 145.4 MB.
+Total: 6.197917 ms (FindLiveObjects: 0.515916 ms CreateObjectMapping: 0.233500 ms MarkObjects: 3.911000 ms  DeleteObjects: 1.536542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.910 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.430 seconds
+Domain Reload Profiling: 3342ms
+	BeginReloadAssembly (255ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (561ms)
+		LoadAssemblies (479ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (151ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2431ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2089ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (270ms)
+			ProcessInitializeOnLoadAttributes (1646ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6078 unused Assets / (3.7 MB). Loaded Objects now: 6886.
+Memory consumption went from 149.4 MB to 145.7 MB.
+Total: 6.164166 ms (FindLiveObjects: 0.540708 ms CreateObjectMapping: 0.252917 ms MarkObjects: 3.937708 ms  DeleteObjects: 1.432000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.104 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.583 seconds
+Domain Reload Profiling: 3690ms
+	BeginReloadAssembly (410ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (40ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (124ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (591ms)
+		LoadAssemblies (561ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (156ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2584ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2238ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (298ms)
+			ProcessInitializeOnLoadAttributes (1760ms)
+			ProcessInitializeOnLoadMethodAttributes (164ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6078 unused Assets / (3.7 MB). Loaded Objects now: 6888.
+Memory consumption went from 149.4 MB to 145.7 MB.
+Total: 6.436959 ms (FindLiveObjects: 0.659208 ms CreateObjectMapping: 0.257583 ms MarkObjects: 4.097208 ms  DeleteObjects: 1.422292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.888 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.489 seconds
+Domain Reload Profiling: 3380ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (537ms)
+		LoadAssemblies (453ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (151ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2490ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2143ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (262ms)
+			ProcessInitializeOnLoadAttributes (1713ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6078 unused Assets / (4.0 MB). Loaded Objects now: 6890.
+Memory consumption went from 149.4 MB to 145.4 MB.
+Total: 6.158458 ms (FindLiveObjects: 0.533791 ms CreateObjectMapping: 0.318625 ms MarkObjects: 3.933167 ms  DeleteObjects: 1.372167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1425.084130 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains
+  artifactKey: Guid(961d9f2759a57e14dbf17aa401b252c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains using Guid(961d9f2759a57e14dbf17aa401b252c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcd07f1d6f0bf6963a90cc41c44f7f56') in 0.021265083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.269820 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Prefabs/Prefab_Mountain_2.prefab
+  artifactKey: Guid(01dd7a58c63283449b8d845a452090e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Prefabs/Prefab_Mountain_2.prefab using Guid(01dd7a58c63283449b8d845a452090e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd785679149c7e21cb8ae48d535ead2a7') in 1.833872709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Prefabs/Prefab_Mountain_47.prefab
+  artifactKey: Guid(1d91278d40f69bf428e9546cbdbdcbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Prefabs/Prefab_Mountain_47.prefab using Guid(1d91278d40f69bf428e9546cbdbdcbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4907eca3e2af2830034ebc59a88cb2ff') in 0.059909792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Prefabs/Prefab_Mountain_22.prefab
+  artifactKey: Guid(51124bb250d8f2d4eb16bc165c55409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Prefabs/Prefab_Mountain_22.prefab using Guid(51124bb250d8f2d4eb16bc165c55409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa542f593f0a4394de26a8b6f5483470') in 0.024695958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Prefabs/Prefab_Mountain_27.prefab
+  artifactKey: Guid(55e306fb876f33d4695c7992639230f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Prefabs/Prefab_Mountain_27.prefab using Guid(55e306fb876f33d4695c7992639230f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38a992294717010eabf43dc7dec54965') in 0.025710209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Prefabs/Prefab_Mountain_23.prefab
+  artifactKey: Guid(90f6cb45efc979145bfe6b410430f5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/NatureManufacture Assets/Winter Background Mountains/Prefabs/Prefab_Mountain_23.prefab using Guid(90f6cb45efc979145bfe6b410430f5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc911b29bc0a6ee21e2f86b95a679a5a') in 0.023529625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

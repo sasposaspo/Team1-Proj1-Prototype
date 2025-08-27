@@ -7,19 +7,22 @@ public class PlayerMove : MonoBehaviour
 {
     // Fields
 
-    public float speed = 20f;
-    public float jumpForce = 15f;
+    public float normalSpeed = 8f;
+    private float speed = 8f;
+    public float jumpForce = 12f;
 
     private Collider col;
     private Rigidbody rb;
 
     private new Transform camera;
 
-    private Vector3 standingHeight;
-    private Vector3 crouchHeight;
-
     public int maxAirJumps = 1;
     private int airJumpsLeft;
+
+    private float standingHeight;
+    private float crouchingHeight;
+
+    private Coroutine heightAnimation = null;
 
     // Methods
 
@@ -30,19 +33,31 @@ public class PlayerMove : MonoBehaviour
 
         camera = GetComponentInChildren<Camera>().transform;
 
-        standingHeight = transform.localScale;
-        crouchHeight = new Vector3(standingHeight.x, standingHeight.y / 2, standingHeight.z);
+        standingHeight = transform.localScale.y;
+        crouchingHeight = standingHeight / 2;
+
+        speed = normalSpeed;
     }
 
     private void FixedUpdate()
     {
-        Move(); // Not ran every frame to avoid issues w/ physics
+        if (GameManager.gameOver == false)
+        {
+            Move(); // Not ran every frame to avoid issues w/ physics
+        }
+        else
+        {
+            rb.linearVelocity = Vector3.zero;
+        }
     }
 
     private void Update()
     {
-        Jump();
-        Crouch();
+        if (GameManager.gameOver == false)
+        {
+            Jump();
+            Crouch();
+        }
     }
 
     private void Move()
@@ -68,7 +83,12 @@ public class PlayerMove : MonoBehaviour
 
     private void Jump()
     {
-        if (Input.GetButtonDown("Jump") && airJumpsLeft > 0)
+        if (Input.GetButton("Jump") && IsGrounded() == true)
+        {
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, rb.linearVelocity.z); // Add upwards force
+        }
+
+        if (Input.GetButtonDown("Jump") && IsGrounded() == false && airJumpsLeft > 0)
         {
             rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, rb.linearVelocity.z); // Add upwards force
             airJumpsLeft--;
@@ -84,22 +104,30 @@ public class PlayerMove : MonoBehaviour
     {
         if (Input.GetButtonDown("Crouch"))
         {
-            StopAllCoroutines();
-            StartCoroutine(ScaleAnimation(crouchHeight));
+            StopHeightAnimation();
+            heightAnimation = StartCoroutine(HeightAnimation(crouchingHeight));
         }
         if (Input.GetButtonUp("Crouch"))
         {
-            StopAllCoroutines();
-            StartCoroutine(ScaleAnimation(standingHeight, ()=> CheckCollisionAt(PlayerColliderTop()) == false));
+            StopHeightAnimation();
+            heightAnimation = StartCoroutine(HeightAnimation(standingHeight, ()=> CheckCollisionAt(PlayerColliderTop()) == false));
+        }
+    }
+
+    private void StopHeightAnimation()
+    {
+        if (heightAnimation != null)
+        {
+            StopCoroutine(heightAnimation);
         }
     }
 
     // Coroutines
 
-    private IEnumerator ScaleAnimation(Vector3 targetScale, Func<bool> canProgress = null) // Used for crouching & uncrouching
+    private IEnumerator HeightAnimation(float targetHeight, Func<bool> canProgress = null) // Used for crouching & uncrouching
     {
         float duration = 0.1f;
-        Vector3 startHeight = transform.localScale;
+        float startHeight = transform.localScale.y;
 
         // Track the elapsed time of the animation
         for (float elapsedTime = 0f; elapsedTime < duration;)
@@ -112,14 +140,33 @@ public class PlayerMove : MonoBehaviour
             float time = elapsedTime / duration; // Normalize elapsed time
 
             // Interpolate over time
-            Vector3 currentHeight = Vector3.Lerp(startHeight, targetScale, time);
+            float currentHeight = Mathf.Lerp(startHeight, targetHeight, time);
 
-            transform.localScale = currentHeight; // Apply animation
+            transform.localScale = new Vector3(transform.localScale.x, currentHeight, transform.localScale.z); // Apply animation
 
             yield return null; // Wait for next frame
         }
 
-        transform.localScale = targetScale; // Ensure finished animation state
+        // Ensure finished animation state
+        transform.localScale = new Vector3(transform.localScale.x, targetHeight, transform.localScale.z);
+    }
+
+    // Collision Methods
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ice"))
+        {
+            speed = normalSpeed * 3;
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ice"))
+        {
+            speed = normalSpeed;
+        }
     }
 
     // Return Methods

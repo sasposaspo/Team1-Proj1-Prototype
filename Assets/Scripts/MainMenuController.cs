@@ -8,9 +8,9 @@ public class MainMenuController : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-     public void LoadLevelOne()
+     public void LoadLevelTwo()
     {
-        SceneManager.LoadScene("LevelOne");
+        SceneManager.LoadScene("LevelTwo");
     }
 
     public void LoadHelpMenu()
