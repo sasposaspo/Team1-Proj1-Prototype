@@ -89,6 +89,16 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.terrain-tools@5.1.2": {
+      "name": "com.unity.terrain-tools",
+      "displayName": "Terrain Tools",
+      "resolvedPath": "/Users/sashapopovici/Desktop/Project 1-Design II/Team1-Proj1-Prototype/Library/PackageCache/com.unity.terrain-tools@d4bcf51a280e",
+      "fingerprint": "d4bcf51a280e611c70611a4f4045f686f2948913",
+      "editorCompatibility": "2023.1.0a25",
+      "version": "5.1.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.test-framework@1.4.6": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
