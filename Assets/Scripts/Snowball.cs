@@ -1,39 +1,48 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class Snowball : HealthBase
+public class Snowball : MonoBehaviour, IMeltable
 {
     // Fields
 
-    Vector3 normalScale;
+    private Vector3 normalScale;
 
     // Methods
 
     private void Start()
     {
         normalScale = transform.localScale;
-
-        StartCoroutine(SpawnAnimation());
+        StartCoroutine(ScaleAnimation(Vector3.zero, normalScale));
     }
 
-    protected override void Die()
+    // Meltable Interface
+
+    public void Melt()
     {
-        Destroy(gameObject);
+        StopAllCoroutines();
+        StartCoroutine(MeltAnimation());
     }
 
     // Collision Methods
 
     private void OnCollisionStay(Collision collision)
     {
-        if (collision.gameObject.TryGetComponent(out HealthBase health))
+        if (collision.gameObject.TryGetComponent(out IHealth otherHealth))
         {
-            health.ModifyHealth(-1);
+            otherHealth.Die();
         }
     }
 
     // Coroutines
 
-    private IEnumerator SpawnAnimation()
+    public IEnumerator MeltAnimation()
+    {
+        yield return ScaleAnimation(transform.localScale, Vector3.zero);
+        Destroy(gameObject);
+    }
+
+    private IEnumerator ScaleAnimation(Vector3 startScale, Vector3 targetScale)
     {
         float duration = 1f;
         
@@ -43,13 +52,13 @@ public class Snowball : HealthBase
             float time = elapsedTime / duration; // Normalize elapsed time
 
             // Interpolate over time
-            Vector3 currentScale = Vector3.Lerp(Vector3.zero, normalScale, time);
+            Vector3 currentScale = Vector3.Lerp(startScale, targetScale, time);
 
             transform.localScale = currentScale; // Apply animation
 
             yield return null; // Wait for next frame
         }
 
-        transform.localScale = normalScale; // Ensure finished animation state
+        transform.localScale = targetScale; // Ensure finished animation state
     }
 }
