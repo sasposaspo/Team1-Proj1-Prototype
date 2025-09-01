@@ -11,7 +11,7 @@ public class PlayerMove : MonoBehaviour
     public float speed = 8f;
     public float jumpForce = 12f;
 
-    private Collider col;
+    private CapsuleCollider col;
     private Rigidbody rb;
 
     private new Transform camera;
@@ -32,12 +32,12 @@ public class PlayerMove : MonoBehaviour
 
     private void Start()
     {
-        col = GetComponent<Collider>();
+        col = GetComponent<CapsuleCollider>();
         rb = GetComponent<Rigidbody>();
 
         camera = GetComponentInChildren<Camera>().transform;
 
-        standingHeight = transform.localScale.y;
+        standingHeight = col.height;
         crouchingHeight = standingHeight / 2;
     }
 
@@ -167,7 +167,7 @@ public class PlayerMove : MonoBehaviour
     private IEnumerator HeightAnimation(float targetHeight, Func<bool> canProgress = null) // Used for crouching & uncrouching
     {
         float duration = 0.1f;
-        float startHeight = transform.localScale.y;
+        float startHeight = col.height;
 
         // Track the elapsed time of the animation
         for (float elapsedTime = 0f; elapsedTime < duration;)
@@ -182,13 +182,19 @@ public class PlayerMove : MonoBehaviour
             // Interpolate over time
             float currentHeight = Mathf.Lerp(startHeight, targetHeight, time);
 
-            transform.localScale = new Vector3(transform.localScale.x, currentHeight, transform.localScale.z); // Apply animation
+            // Store collider center
+            Vector3 localCenter = col.center;
+
+            col.height = currentHeight; // Apply animation
+            
+            // Re-apply collider center
+            col.center = localCenter;
 
             yield return null; // Wait for next frame
         }
 
         // Ensure finished animation state
-        transform.localScale = new Vector3(transform.localScale.x, targetHeight, transform.localScale.z);
+        col.height = targetHeight;
     }
 
     private IEnumerator StopSlide()
