@@ -1,21 +1,9 @@
 fileFormatVersion: 2
-guid: d48fdc7a14be275439446b67c627d81d
-AssetOrigin:
-  serializedVersion: 1
-  productId: 97905
-  packageName: Mountain Terrain, Rocks and Tree
-  packageVersion: 3.0
-  assetPath: Assets/Mountain Terrain rocks and tree/3d model/Rock/rock_set_01.fbx
-  uploadId: 658244
+guid: 21e99a3e2715448f5a8cad26bc0079c3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: rock_set_mat
-    second: {fileID: 2100000, guid: a6870fec01611b547b936fcacf143241, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -26,7 +14,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 1
+    removeConstantScaleCurves: 0
     motionNodeName: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -111,7 +99,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 0
+  importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
