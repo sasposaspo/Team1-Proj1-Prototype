@@ -61,19 +61,21 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Art\Prefabs\Snowball Spawner\Snowball.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
-    <Compile Include="Assets\Scripts\HandBase.cs" />
-    <Compile Include="Assets\Scripts\Snowball.cs" />
     <Compile Include="Assets\Scripts\Hazard.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerHand.cs" />
+    <Compile Include="Assets\Art\Prefabs\Snowball Spawner\SnowballSpawner.cs" />
     <Compile Include="Assets\Scripts\HealthBase.cs" />
+    <Compile Include="Assets\Scripts\IPickup.cs" />
     <Compile Include="Assets\Scripts\IMeltable.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyHands.cs" />
     <Compile Include="Assets\Scripts\Pickups\PickupBase.cs" />
-    <Compile Include="Assets\Scripts\SnowballSpawner.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerHands.cs" />
     <Compile Include="Assets\Art\Imports\WaterWorks\Scripts\Water_Volume.cs" />
     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
+    <Compile Include="Assets\Scripts\HandsBase.cs" />
+    <Compile Include="Assets\Art\Prefabs\Jump Pad\Jump Pad.cs" />
     <Compile Include="Assets\Scripts\Ice.cs" />
-    <Compile Include="Assets\Scripts\Hover.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\IHealth.cs" />
     <Compile Include="Assets\Scripts\Pickups\Key.cs" />
@@ -83,8 +85,8 @@
     <Compile Include="Assets\Art\Imports\WaterWorks\Scripts\Water_Settings.cs" />
     <Compile Include="Assets\Scripts\UI\LevelTransitionController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Rotation.cs" />
     <Compile Include="Assets\Scripts\MovingPlatform.cs" />
+    <Compile Include="Assets\Scripts\Pickups\Throwable.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerLook.cs" />
   </ItemGroup>
   <ItemGroup>
