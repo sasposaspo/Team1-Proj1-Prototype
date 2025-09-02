@@ -3,15 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|c:\\users\\subwa\\onedrive\\proj1\\team1-proj1-prototype\\assets\\scripts\\enemy\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\assets\\scripts\\player\\playerhands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\assets\\scripts\\enemy\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|c:\\users\\subwa\\onedrive\\proj1\\team1-proj1-prototype\\assets\\scripts\\enemy\\enemyhands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyhands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\subwa\\OneDrive\\Desktop\\FinalProject\\Assets\\Scripts\\Enemy\\EnemyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\assets\\scripts\\freezable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\freezable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,41 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EnemyHands.cs",
-              "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Scripts\\Enemy\\EnemyHands.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyHands.cs",
-              "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Scripts\\Enemy\\EnemyHands.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyHands.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwF0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T10:18:28.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EnemyController.cs",
-              "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Desktop\\FinalProject\\Assets\\Scripts\\Enemy\\EnemyController.cs",
-              "RelativeDocumentMoniker": "..\\..\\Desktop\\FinalProject\\Assets\\Scripts\\Enemy\\EnemyController.cs",
-              "ToolTip": "C:\\Users\\subwa\\OneDrive\\Desktop\\FinalProject\\Assets\\Scripts\\Enemy\\EnemyController.cs",
-              "RelativeToolTip": "..\\..\\Desktop\\FinalProject\\Assets\\Scripts\\Enemy\\EnemyController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAB0AAAAwAAAAAAAAAA==",
+              "Title": "Freezable.cs",
+              "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Scripts\\Freezable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Freezable.cs",
+              "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Scripts\\Freezable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Freezable.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwC0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T07:35:43.668Z",
+              "WhenOpened": "2025-09-02T09:34:40.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EnemyController.cs",
               "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Scripts\\Enemy\\EnemyController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyController.cs",
               "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Scripts\\Enemy\\EnemyController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAowEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T06:07:36.604Z",
+              "WhenOpened": "2025-09-02T09:42:46.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerHands.cs",
+              "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Scripts\\Player\\PlayerHands.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHands.cs",
+              "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Scripts\\Player\\PlayerHands.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:10:11.234Z",
               "EditorCaption": ""
             }
           ]

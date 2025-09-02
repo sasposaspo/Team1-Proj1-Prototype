@@ -13,14 +13,7 @@ public class EnemyHands : HandsBase
 
     // Methods
 
-    private void Update()
-    {
-        AimHands();
-        HandleThrow();
-        HandlePickUp();
-    }
-
-    private void AimHands()
+    public void AimHands()
     {
         // Create ray from the center of the enemy to where the enemy is facing
         Ray ray = new Ray(transform.parent.root.position, transform.parent.root.forward);
@@ -39,7 +32,7 @@ public class EnemyHands : HandsBase
         }
     }
 
-    private void HandleThrow()
+    public void HandleThrow()
     {
         if (canThrow == true && lookingAtTarget == true)
         {
@@ -55,7 +48,7 @@ public class EnemyHands : HandsBase
         }
     }
 
-    private void HandlePickUp()
+    public void HandlePickUp()
     {
         foreach (Transform hand in hands)
         {

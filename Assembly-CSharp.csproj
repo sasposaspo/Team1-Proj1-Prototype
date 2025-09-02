@@ -66,21 +66,26 @@
     <Compile Include="Assets\Scripts\Hazard.cs" />
     <Compile Include="Assets\Art\Prefabs\Snowball Spawner\SnowballSpawner.cs" />
     <Compile Include="Assets\Scripts\HealthBase.cs" />
-    <Compile Include="Assets\Scripts\IPickup.cs" />
-    <Compile Include="Assets\Scripts\IMeltable.cs" />
+    <Compile Include="Assets\Scripts\LevelReset.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHands.cs" />
     <Compile Include="Assets\Scripts\Pickups\PickupBase.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHands.cs" />
+    <Compile Include="Assets\Scripts\Freezable.cs" />
     <Compile Include="Assets\Art\Imports\WaterWorks\Scripts\Water_Volume.cs" />
+    <Compile Include="Assets\Scripts\LevitatiPlatform.cs" />
     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
     <Compile Include="Assets\Scripts\HandsBase.cs" />
     <Compile Include="Assets\Art\Prefabs\Jump Pad\Jump Pad.cs" />
+    <Compile Include="Assets\Art\Prefabs\Staff\Staff.cs" />
     <Compile Include="Assets\Scripts\Ice.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\IHealth.cs" />
+    <Compile Include="Assets\Art\Imports\Mountain Terrain rocks and tree\Script\Camera\CameraControl.cs" />
+    <Compile Include="Assets\Art\Imports\Mountain Terrain rocks and tree\Script\Camera\FlyCameraControl.cs" />
     <Compile Include="Assets\Scripts\Pickups\Key.cs" />
     <Compile Include="Assets\Scripts\IHazard.cs" />
     <Compile Include="Assets\Scripts\MainMenuController.cs" />
+    <Compile Include="Assets\Scripts\IFreezable.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Art\Imports\WaterWorks\Scripts\Water_Settings.cs" />
     <Compile Include="Assets\Scripts\UI\LevelTransitionController.cs" />
@@ -96,10 +101,12 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Art\Imports\Rainy VFX\Documentation\README.txt" />
     <None Include="Assets\Art\Imports\WaterWorks\Shaders\Volumetric_Water.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Art\Imports\WaterWorks\Shaders\WaterSSR.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\Art\Imports\Rainy VFX\Documentation\LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -1189,10 +1196,6 @@
       <Project>{2D20AFE8-3F68-03E1-7DCE-D84D89FD1B97}</Project>
       <Name>Unity.InputSystem.ForUI</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Searcher.Editor.csproj">
-      <Project>{64EC3450-BB7D-34A2-33BA-7EA05B57054D}</Project>
-      <Name>Unity.Searcher.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{21AF16A2-AA3E-A50A-1685-9A2B7DE2FABB}</Project>
       <Name>Unity.Rider.Editor</Name>
@@ -1204,6 +1207,10 @@
     <ProjectReference Include="Unity.TerrainTools.Editor.csproj">
       <Project>{4C4289D1-800B-D05D-5608-6944DB909418}</Project>
       <Name>Unity.TerrainTools.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Searcher.Editor.csproj">
+      <Project>{64EC3450-BB7D-34A2-33BA-7EA05B57054D}</Project>
+      <Name>Unity.Searcher.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
       <Project>{67F685E7-CC5D-0498-76D3-06B74F327C1F}</Project>
@@ -1229,9 +1236,21 @@
       <Project>{76272824-0F3B-4D7A-3CF7-ACC790A60D62}</Project>
       <Name>Unity.Collections</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
+      <Project>{9D689287-BBB1-E496-4DC6-9333FE67C6EC}</Project>
+      <Name>Unity.ProBuilder.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
+      <Project>{95FDFD13-8FA8-23CD-222C-964D4B32F2D1}</Project>
+      <Name>Unity.ProBuilder.AddOns.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{D42636A6-F0D8-82A1-4DBE-FA278579E28F}</Project>
       <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
+      <Project>{91FD3282-FD1B-516D-4913-1617895C72A4}</Project>
+      <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Collections.Editor.csproj">
       <Project>{329E0A32-5F1C-324D-423E-739F109FCC1B}</Project>
@@ -1268,6 +1287,10 @@
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{20E0D41E-3B0A-71E9-2811-43479AF13FF5}</Project>
       <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.csproj">
+      <Project>{0D8DFCD3-CB0E-A299-C7AF-5E9D947EE831}</Project>
+      <Name>Unity.ProBuilder</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{270B7C00-E4FF-0594-72D0-38695FB329C4}</Project>

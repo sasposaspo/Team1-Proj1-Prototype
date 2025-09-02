@@ -2,11 +2,12 @@ using UnityEngine;
 using UnityEngine.AI;
 using System.Linq;
 
-public class EnemyController : HealthBase
+public class EnemyController : HealthBase, IFreezable
 {
     // Fields
 
     private NavMeshAgent ai;
+
     private EnemyHands enemyHands;
 
     // Methods
@@ -20,6 +21,10 @@ public class EnemyController : HealthBase
     private void Update()
     {
         GetDestination();
+
+        enemyHands.AimHands();
+        enemyHands.HandleThrow();
+        enemyHands.HandlePickUp();
     }
 
     private void GetDestination()
@@ -40,9 +45,9 @@ public class EnemyController : HealthBase
 
             if (enemyHands.EmptyHanded() == true && GetNearestTarget("Player", out Transform player2))
             {
-                Vector3 directionAway = (ai.transform.position - player2.position).normalized;
+                Vector3 directionAway = (transform.position - player2.position).normalized;
 
-                ai.SetDestination(ai.transform.position + (directionAway * 20f));
+                ai.SetDestination(transform.position + (directionAway * 20f));
             }
         }
 
@@ -59,6 +64,16 @@ public class EnemyController : HealthBase
     protected override void Die()
     {
         Destroy(gameObject);
+    }
+
+    public void Freeze()
+    {
+
+    }
+
+    public void UnFreeze()
+    {
+
     }
 
     // Return Methods
