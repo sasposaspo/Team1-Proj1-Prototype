@@ -82,7 +82,7 @@
     "com.unity.probuilder@6.0.7": {
       "name": "com.unity.probuilder",
       "displayName": "ProBuilder",
-      "resolvedPath": "/Users/sashapopovici/Desktop/Project 1-Design II/Team1-Proj1-Prototype/Library/PackageCache/com.unity.probuilder@9b6693f09f97",
+      "resolvedPath": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Library\\PackageCache\\com.unity.probuilder@9b6693f09f97",
       "fingerprint": "9b6693f09f975498d3b4d16d907779e200d3f81b",
       "editorCompatibility": "6000.0.0a1",
       "version": "6.0.7",
@@ -464,7 +464,7 @@
     "com.unity.settings-manager@2.0.1": {
       "name": "com.unity.settings-manager",
       "displayName": "Settings Manager",
-      "resolvedPath": "/Users/sashapopovici/Desktop/Project 1-Design II/Team1-Proj1-Prototype/Library/PackageCache/com.unity.settings-manager@56a930affa1e",
+      "resolvedPath": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Library\\PackageCache\\com.unity.settings-manager@56a930affa1e",
       "fingerprint": "56a930affa1e4462d3595b5c19a1c2a4bf2015d2",
       "editorCompatibility": "2018.4.0a1",
       "version": "2.0.1",

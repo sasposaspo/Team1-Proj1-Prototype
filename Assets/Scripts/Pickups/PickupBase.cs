@@ -1,7 +1,8 @@
 using System.Collections;
+using UnityEditor;
 using UnityEngine;
 
-public abstract class PickupBase : MonoBehaviour
+public abstract class PickupBase : MonoBehaviour, IFreezable
 {
     // Fields
 
@@ -15,8 +16,11 @@ public abstract class PickupBase : MonoBehaviour
 
     protected bool canInteract = true;
 
-    protected Transform previousParent;
+    protected GameObject previousParent;
     protected bool beingThrown = false;
+
+    public GameObject iceCubePrefab;
+    private GameObject iceCube;
 
     // Private Methods
 
@@ -29,17 +33,19 @@ public abstract class PickupBase : MonoBehaviour
         // Get pickup model
         pickupModel = transform.GetChild(0);
 
-        // Get the lower & upper positions for the hover animation
+        // Get lower & upper positions for the hover animation
         hoverMinY = pickupModel.localPosition.y - 0.25f;
         hoverMaxY = pickupModel.localPosition.y + 0.25f;
 
-        Idle();
+        // Start idle animations
+        StartCoroutine(RotateAnimation());
+        StartCoroutine(HoverAnimationLoop());
     }
 
     protected void Update()
     {
         // Keep the pickup standing upright when idle
-        if (transform.parent == null && canInteract == true) { transform.rotation = Quaternion.Euler(Vector3.zero); }
+        if (IsIdle() == true) { transform.rotation = Quaternion.Euler(0f, transform.rotation.y, 0f); }
     }
 
     protected void TogglePhysics(bool enable)
@@ -48,14 +54,21 @@ public abstract class PickupBase : MonoBehaviour
 
         // Set rigidbody to interpolate when responding to physics
         rb.interpolation = enable ? RigidbodyInterpolation.Interpolate : RigidbodyInterpolation.None;
-
-        col.enabled = enable; // Enable the collider when responding to physics
     }
 
-    protected void Idle()
+    protected void ToggleCollision(bool enable)
     {
-        StartCoroutine(RotateAnimation());
-        StartCoroutine(HoverAnimationLoop());
+        // Enable or disable collision
+        col.enabled = enable;
+    }
+
+    protected void ToggleShadows(bool enable)
+    {
+        // Get mesh renderer from pickup model
+        MeshRenderer renderer = pickupModel.GetComponent<MeshRenderer>();
+
+        // Enable or disable shadows
+        renderer.shadowCastingMode = enable ? UnityEngine.Rendering.ShadowCastingMode.On : UnityEngine.Rendering.ShadowCastingMode.Off;
     }
 
     // Public Methods
@@ -65,15 +78,14 @@ public abstract class PickupBase : MonoBehaviour
         if (canInteract == true)
         {
             TogglePhysics(false);
+            ToggleShadows(false);
+            ToggleCollision(false);
+
+            // Set parent to hand
             transform.SetParent(hand);
 
-            // Center the pickup model
-            pickupModel.localPosition = Vector3.zero;
-
-            StopAllCoroutines();
+            // Start pickup animation
             StartCoroutine(PickupAnimation());
-
-            pickupModel.GetComponent<MeshRenderer>().shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
         }
     }
 
@@ -82,11 +94,11 @@ public abstract class PickupBase : MonoBehaviour
         if (canInteract == true)
         {
             TogglePhysics(true);
+            ToggleShadows(true);
+            ToggleCollision(true);
+
+            // Unparent pickup
             transform.SetParent(null);
-
-            Idle();
-
-            pickupModel.GetComponent<MeshRenderer>().shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
         }
     }
 
@@ -94,22 +106,65 @@ public abstract class PickupBase : MonoBehaviour
     {
         if (canInteract == true)
         {
-            previousParent = transform.parent.root;
-            Debug.Log(previousParent.name);
+            // Store reference to whoever threw pickup
+            previousParent = transform.root.gameObject;
 
-            TogglePhysics(true);
-            transform.SetParent(null);
+            Drop();
 
+            // Set flags
             beingThrown = true;
             canInteract = false;
-            rb.AddForce(transform.forward * 50f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 5f, ForceMode.Impulse);
+
+            // Get desired throw direction & force
+            Vector3 desiredThrow = (transform.forward * 50f) + (transform.up * 5f);
+
+            // Apply desired throw to rigid body
+            rb.AddForce(desiredThrow, ForceMode.Impulse);
         }
     }
 
-    public virtual void Use()
-    {
+    // Abstract Methods
 
+    public abstract void Use();
+
+    // Freezable Interface Methods
+
+    public void Freeze()
+    {
+        canInteract = false;
+        beingThrown = false;
+
+        TogglePhysics(false);
+        ToggleCollision(false);
+
+        // Get the bounds of the pickup
+        Bounds bounds = transform.GetComponent<Collider>().bounds;
+
+        // Instantiate ice cube
+        iceCube = Instantiate(iceCubePrefab, transform.position, Quaternion.identity);
+
+        // Customize ice cube
+        iceCube.transform.position = bounds.center;
+        iceCube.transform.localScale = bounds.size + (Vector3.one * 1.05f);
+
+        // Set parent to ice cube
+        transform.SetParent(iceCube.transform, worldPositionStays: true);
+
+        // Unfreeze in 5 seconds
+        Invoke(nameof(UnFreeze), 5f);
+    }
+
+    public void UnFreeze()
+    {
+        canInteract = true;
+
+        TogglePhysics(true);
+        ToggleCollision(true);
+
+        // Unparent from ice cube
+        transform.SetParent(null, worldPositionStays: true);
+
+        Destroy(iceCube);
     }
 
     // Collision Methods
@@ -118,63 +173,36 @@ public abstract class PickupBase : MonoBehaviour
     {
         if (beingThrown == true)
         {
-            Debug.Log(collision.gameObject.name);
+            // Check if collided game object threw this pickup
+            if (collision.transform.root.gameObject == previousParent) { return; }
 
-            // Thrown pickup will not deal damage to whoever threw it
-            if (collision.gameObject.name == previousParent.name) { return; }
-
-            //
+            // Check if collided game object has a health component
             if (collision.gameObject.TryGetComponent(out HealthBase otherHealth))
             {
+                // Deal damage
                 otherHealth.ModifyHealth(-1);
             }
 
+            // Set flags
             beingThrown = false;
             canInteract = true;
-
-            Idle();
         }
     }
 
     // Coroutines
 
-    protected IEnumerator PickupAnimation()
-    {
-        float duration = 0.15f;
-
-        // Store start position & start rotation
-        transform.GetLocalPositionAndRotation(out Vector3 startPosition, out Quaternion startRotation);
-
-        Vector3 targetPosition = Vector3.zero;
-        Quaternion targetRotation = Quaternion.Euler(Vector3.zero);
-
-        // Track & increase the elapsed time of the animation
-        for (float elapsedTime = 0f; elapsedTime < duration; elapsedTime += Time.deltaTime)
-        {
-            float time = elapsedTime / duration; // Normalize elapsed time
-
-            // Interpolate position & rotation over time
-            Vector3 currentPosition = Vector3.Lerp(startPosition, targetPosition, time);
-            Quaternion currentRotation = Quaternion.Lerp(startRotation, targetRotation, time);
-
-            // Apply interpolations to transform
-            transform.SetLocalPositionAndRotation(currentPosition, currentRotation);
-
-            yield return null; // Wait for next frame
-        }
-
-        // Ensure target position & target rotation are set
-        transform.SetLocalPositionAndRotation(targetPosition, targetRotation);
-    }
-
     protected IEnumerator RotateAnimation()
     {
+        // Get rotation in degrees per second
         Vector3 rotation = new Vector3(0f, 90f, 0f);
 
         while (true) // Runs forever unless stopped
         {
-            // Rotate pickup model
-            pickupModel.Rotate(rotation * Time.deltaTime);
+            if (IsIdle() == true)
+            {
+                // Rotate pickup model over time
+                pickupModel.Rotate(rotation * Time.deltaTime);
+            }
 
             yield return null; // Wait for next frame
         }
@@ -207,20 +235,85 @@ public abstract class PickupBase : MonoBehaviour
         float startY = pickupModel.localPosition.y;
 
         // Track & increase the elapsed time of the animation
-        for (float elapsedTime = 0f; elapsedTime < duration; elapsedTime += Time.deltaTime)
+        for (float elapsedTime = 0f; elapsedTime < duration;)
         {
             float time = elapsedTime / duration; // Normalize elapsed time
 
             // Interpolate over time
             float currentY = Mathf.Lerp(startY, targetY, smoothAnimationCurve.Evaluate(time));
 
-            // Apply animation
-            pickupModel.localPosition = new Vector3(pickupModel.localPosition.x, currentY, pickupModel.localPosition.z);
+            if (IsIdle() == true)
+            {
+                // Apply animation
+                pickupModel.localPosition = new Vector3(pickupModel.localPosition.x, currentY, pickupModel.localPosition.z);
+
+                // Progress animation
+                elapsedTime += Time.deltaTime;
+            }
+
+            yield return null; // Wait for next frame
+        }
+
+        if (IsIdle() == true)
+        {
+            // Ensure finished animation state
+            pickupModel.localPosition = new Vector3(pickupModel.localPosition.x, targetY, pickupModel.localPosition.z);
+        }
+    }
+
+    protected IEnumerator PickupAnimation()
+    {
+        float duration = 0.15f;
+
+        // Store position & rotation
+        Vector3 startPos = transform.localPosition;
+        Quaternion startRot = transform.localRotation;
+
+        // Store position & rotation
+        Vector3 pickupModelStartPos = pickupModel.localPosition;
+        Quaternion pickupModelStartRot = pickupModel.localRotation;
+
+        // Get target positions and rotations
+        Vector3 targetPos = Vector3.zero;
+        Quaternion targetRot = Quaternion.Euler(Vector3.zero);
+
+        // Track & increase the elapsed time of the animation
+        for (float elapsedTime = 0f; elapsedTime < duration; elapsedTime += Time.deltaTime)
+        {
+            float time = elapsedTime / duration; // Normalize elapsed time
+
+            // Interpolate over time
+            Vector3 currentPos = Vector3.Lerp(startPos, targetPos, time);
+            Quaternion currentRot = Quaternion.Lerp(startRot, targetRot, time);
+
+            // Interpolate over time
+            Vector3 pickupModelCurrentPos = Vector3.Lerp(pickupModelStartPos, targetPos, time);
+            Quaternion pickupModelCurrentRot = Quaternion.Lerp(pickupModelStartRot, targetRot, time);
+
+            // Apply animations
+            transform.localPosition = currentPos;
+            transform.localRotation = currentRot;
+
+            // Apply animations
+            pickupModel.localPosition = currentPos;
+            pickupModel.localRotation = currentRot;
 
             yield return null; // Wait for next frame
         }
 
         // Ensure finished animation state
-        pickupModel.localPosition = new Vector3(pickupModel.localPosition.x, targetY, pickupModel.localPosition.z);
+        transform.localPosition = targetPos;
+        transform.localRotation = targetRot;
+
+        // Ensure finished animation state
+        pickupModel.localPosition = targetPos;
+        pickupModel.localRotation = targetRot;
+    }
+
+    // Return Methods
+
+    protected bool IsIdle()
+    {
+        return canInteract == true && transform.parent == null;
     }
 }

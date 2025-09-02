@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class LevitatePlatform : MonoBehaviour
 {
+    // Fields
+
     [Header("Vertical Motion")]
     [Tooltip("How high the platform floats up and down.")]
     public float verticalAmplitude = 0.5f;
@@ -23,6 +25,8 @@ public class LevitatePlatform : MonoBehaviour
     private Vector3 startPos;
     private Quaternion startRot;
     private float phaseOffset;
+
+    // Methods
 
     void Awake()
     {

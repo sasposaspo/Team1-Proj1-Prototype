@@ -2,7 +2,7 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Snowball : MonoBehaviour, IMeltable
+public class Snowball : MonoBehaviour
 {
     // Fields
 
