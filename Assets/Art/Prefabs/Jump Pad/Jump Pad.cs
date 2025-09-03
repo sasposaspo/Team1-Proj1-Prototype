@@ -14,7 +14,7 @@ public class JumpPad : MonoBehaviour
         if (collision.gameObject.TryGetComponent(out Rigidbody otherRb))
         {
             // Add upwards force
-            otherRb.linearVelocity = new Vector3(otherRb.linearVelocity.x, jumpForce, otherRb.linearVelocity.z);
+            otherRb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
         }
     }
 }

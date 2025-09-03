@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4370231771220944611}
   - component: {fileID: 1066971975115439455}
   - component: {fileID: -4611136431919151343}
-  - component: {fileID: -9071820310836295365}
+  - component: {fileID: -7243429873355101573}
   m_Layer: 0
   m_Name: Snowball Prefab
   m_TagString: Untagged
@@ -150,7 +150,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2538cec7b692c304d855b9cf614c2688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-9071820310836295365
+  health: 100
+  invincibilityDuration: 1
+--- !u!114 &-7243429873355101573
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,4 +164,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 413866e5e3ec2e94890d2f3f8f0a7232, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iceCubePrefab: {fileID: 6691143282001063023, guid: 62915d0a208a5814da90e0ce415d7df5, type: 3}
+  moveableWhenFrozen: 1
+  currentState: 0

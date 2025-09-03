@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7622940470609032878}
   - component: {fileID: 4041520703486931136}
   - component: {fileID: 248555201317480382}
-  - component: {fileID: 9124057550150042900}
+  - component: {fileID: 7138822237949573950}
   m_Layer: 0
   m_Name: Jump Pad
   m_TagString: Untagged
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 25
---- !u!114 &9124057550150042900
+--- !u!114 &7138822237949573950
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,4 +136,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 413866e5e3ec2e94890d2f3f8f0a7232, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iceCubePrefab: {fileID: 6691143282001063023, guid: 62915d0a208a5814da90e0ce415d7df5, type: 3}
+  moveableWhenFrozen: 1
+  currentState: 0
