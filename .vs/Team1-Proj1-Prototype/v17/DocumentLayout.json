@@ -7,20 +7,36 @@
       "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\art\\prefabs\\snowball spawner\\snowball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\assets\\art\\prefabs\\staffs\\icestaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\art\\prefabs\\staffs\\icestaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\assets\\art\\prefabs\\staffs\\firestaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\art\\prefabs\\staffs\\firestaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\assets\\resources\\scripts\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\assets\\resources\\scripts\\hazard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\hazard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\assets\\resources\\scripts\\pickups\\pickupbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\pickups\\pickupbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\assets\\resources\\scripts\\gotoleveltwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\gotoleveltwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\assets\\resources\\scripts\\ui\\leveltransitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\ui\\leveltransitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\assets\\resources\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\assets\\resources\\scripts\\levitatiplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\levitatiplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\assets\\resources\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A7C11B-C918-BEDA-D0D7-2EE95156A90B}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,62 +56,106 @@
               "RelativeDocumentMoniker": "Assets\\Art\\Prefabs\\Snowball Spawner\\Snowball.cs",
               "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Art\\Prefabs\\Snowball Spawner\\Snowball.cs",
               "RelativeToolTip": "Assets\\Art\\Prefabs\\Snowball Spawner\\Snowball.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T13:26:40.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IceStaff.cs",
-              "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Art\\Prefabs\\Staffs\\IceStaff.cs",
-              "RelativeDocumentMoniker": "Assets\\Art\\Prefabs\\Staffs\\IceStaff.cs",
-              "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Art\\Prefabs\\Staffs\\IceStaff.cs",
-              "RelativeToolTip": "Assets\\Art\\Prefabs\\Staffs\\IceStaff.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T13:00:36.36Z",
+              "WhenOpened": "2025-09-04T00:37:50.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FireStaff.cs",
-              "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Art\\Prefabs\\Staffs\\FireStaff.cs",
-              "RelativeDocumentMoniker": "Assets\\Art\\Prefabs\\Staffs\\FireStaff.cs",
-              "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Art\\Prefabs\\Staffs\\FireStaff.cs",
-              "RelativeToolTip": "Assets\\Art\\Prefabs\\Staffs\\FireStaff.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "Title": "Hazard.cs",
+              "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\Hazard.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Hazard.cs",
+              "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\Hazard.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\Hazard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T09:08:39.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T00:27:39.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T00:07:20.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LevelTransitionController.cs",
+              "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\UI\\LevelTransitionController.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\UI\\LevelTransitionController.cs",
+              "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\UI\\LevelTransitionController.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\UI\\LevelTransitionController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwB8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T00:06:42.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GoToLevelTwo.cs",
+              "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\GoToLevelTwo.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\GoToLevelTwo.cs",
+              "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\GoToLevelTwo.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\GoToLevelTwo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T00:05:39.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MovingPlatform.cs",
+              "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\MovingPlatform.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\MovingPlatform.cs",
+              "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\MovingPlatform.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\MovingPlatform.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T22:38:28.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LevitatiPlatform.cs",
+              "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\LevitatiPlatform.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\LevitatiPlatform.cs",
+              "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\LevitatiPlatform.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\LevitatiPlatform.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwD8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T22:15:43.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StateController.cs",
               "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\StateController.cs",
               "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\StateController.cs",
               "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\StateController.cs",
               "RelativeToolTip": "Assets\\Resources\\Scripts\\StateController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAswAkBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T12:19:38.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T12:19:38.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PickupBase.cs",
               "DocumentMoniker": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\Pickups\\PickupBase.cs",
               "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Pickups\\PickupBase.cs",
               "ToolTip": "C:\\Users\\subwa\\OneDrive\\Proj1\\Team1-Proj1-Prototype\\Assets\\Resources\\Scripts\\Pickups\\PickupBase.cs",
               "RelativeToolTip": "Assets\\Resources\\Scripts\\Pickups\\PickupBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAUwBQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T05:21:29.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T05:21:29.462Z"
             }
           ]
         }

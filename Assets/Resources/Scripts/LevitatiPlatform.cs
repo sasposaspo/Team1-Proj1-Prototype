@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class LevitatePlatform : MonoBehaviour
@@ -26,35 +27,43 @@ public class LevitatePlatform : MonoBehaviour
     private Quaternion startRot;
     private float phaseOffset;
 
+    private float motionTime = 0f;
+
     // Methods
 
-    void Awake()
+    private void Awake()
     {
         // Random offset so each platform floats and tilts independently
         phaseOffset = Random.Range(0f, Mathf.PI * 2f);
     }
 
-    void Start()
+    private void Start()
     {
         startPos = transform.position;
         startRot = transform.rotation;
     }
 
-    void Update()
+    private void Update()
     {
-        Vector3 tempPos = startPos;
+        if (GetComponent<StateController>().currentState != ObjectState.Frozen)
+        {
+            motionTime += Time.deltaTime;
 
-        // Vertical floating
-        tempPos.y += Mathf.Sin(Time.time * verticalFrequency + phaseOffset) * verticalAmplitude;
+            Vector3 tempPos = startPos;
 
-        // Horizontal drifting
-        tempPos.x += Mathf.Sin(Time.time * horizontalFrequency + phaseOffset) * horizontalAmplitude;
+            // Vertical floating
+            tempPos.y += Mathf.Sin(motionTime * verticalFrequency + phaseOffset) * verticalAmplitude;
 
-        transform.position = tempPos;
+            // Horizontal drifting
+            tempPos.x += Mathf.Sin(motionTime * horizontalFrequency + phaseOffset) * horizontalAmplitude;
 
-        // Tilt rotation
-        float tiltX = Mathf.Sin(Time.time * tiltFrequency + phaseOffset) * tiltAngle;
-        float tiltZ = Mathf.Cos(Time.time * tiltFrequency + phaseOffset) * tiltAngle;
-        transform.rotation = startRot * Quaternion.Euler(tiltX, 0f, tiltZ);
+            transform.position = tempPos;
+
+            // Tilt rotation
+            float tiltX = Mathf.Sin(motionTime * tiltFrequency + phaseOffset) * tiltAngle;
+            float tiltZ = Mathf.Cos(motionTime * tiltFrequency + phaseOffset) * tiltAngle;
+
+            transform.rotation = startRot * Quaternion.Euler(tiltX, 0f, tiltZ);
+        }
     }
 }

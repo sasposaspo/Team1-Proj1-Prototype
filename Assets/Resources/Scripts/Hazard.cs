@@ -9,4 +9,12 @@ public class Hazard : MonoBehaviour
             health.ModifyHealth(-1);
         }
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.TryGetComponent(out HealthBase health))
+        {
+            health.ModifyHealth(-1);
+        }
+    }
 }

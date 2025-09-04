@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelTwo.unity
     guid: f3863c3c8ebc95a4585c0ba301e4f0f7
   - enabled: 1
-    path: Assets/Scenes/LevelThree/LevelThree.unity
-    guid: d5e822f036010a347825320b719a31f5
+    path: Assets/Scenes/LevelThree_Sasha/LevelThree.unity
+    guid: fac05668dbb6f43c89da3fd113ef81ec
   - enabled: 1
     path: Assets/Scenes/HelpMenu.unity
     guid: 1c20252c2e9f149eba0c2928d565e836
